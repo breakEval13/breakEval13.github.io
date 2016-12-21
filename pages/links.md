@@ -11,5 +11,5 @@ permalink: /links/
 > God made relatives. Thank God we can choose our friends.
 
 * [漠然](https://github.com/mritd)
-* [Blog Something](http://chenxiaoyoyo.github.io)
+
 

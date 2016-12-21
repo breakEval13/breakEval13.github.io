@@ -20,8 +20,6 @@ permalink: /about/
 ## 联系
 
 * GitHub：[@mzlogin](https://github.com/zmatsh)
-* 掘金：[@zmatsh](http://gold.xitu.io/user/zmatsh)
-* LinkedIn：[@zmatsh](https://www.linkedin.com/in/zmatsh)
 * 博客：[{{ site.title }}]({{ site.url }})
 * twitter [@firshMe](https://twitter.com/firshMe)
 ## Skill Keywords
