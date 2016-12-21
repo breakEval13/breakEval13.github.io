@@ -2,15 +2,15 @@
 layout: page
 title: About
 description: 曲线救国
-keywords: zmatsh, 张建新
+keywords: firsh, 张建新
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是张建新，码而生，码而立，工作狂。
+我是firshme，码而生，码而立，工作狂。
 
-仰慕「优雅编码的艺术」。
+仰慕 [优雅编码的艺术,精湛的技术]。
 
 ## 坚信
 
@@ -23,10 +23,7 @@ permalink: /about/
 * 掘金：[@zmatsh](http://gold.xitu.io/user/zmatsh)
 * LinkedIn：[@zmatsh](https://www.linkedin.com/in/zmatsh)
 * 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@zmatsh](http://weibo.com/zmatsh)
-* 知乎: [@zmatsh](http://www.zhihu.com/people/zmatsh)
-* 豆瓣: [@zmatsh](http://www.douban.com/people/zmatsh)
-
+* twitter [@firshMe](https://twitter.com/firshMe)
 ## Skill Keywords
 
 #### Software Engineer Keywords
