@@ -22,7 +22,6 @@ organization: winhong, Inc.
 organization_url: https://winhong.com
 location: Beijing, China
 email: zhang-rd-fe@s139.org
-
 # ---------------- #
 #    Navigation    #
 # ---------------- #
@@ -30,7 +29,6 @@ navs:
   -
     href: /
     label: 首页
-
   -
     href: /categories/
     label: 分类
@@ -42,20 +40,16 @@ navs:
   -
     href: /wiki/
     label: 维基
-
   -
     href: /links/
     label: 链接
-
   -
     href: /about/
     label: 关于
-
 # ---------------- #
 #       RSS        #
 # ---------------- #
 subscribe_rss: /feed.xml
-
 # ---------------- #
 #      Jekyll      #
 # ---------------- #
@@ -81,7 +75,6 @@ collections:
     wiki:
         output: true
         permalink: /wiki/:path/
-
 # ---------------- #
 #      Socials     #
 # ---------------- #
@@ -91,7 +84,6 @@ facebook_username: zmatsh
 #weibo_username: zmatsh
 #zhihu_username: zmatsh
 #twitter_username: zmatsh
-
 # ---------------- #
 #      Comments    #
 # ---------------- #
@@ -103,20 +95,17 @@ facebook_username: zmatsh
 #disqus_username: mzlogin
 # 在使用 disqus 的时候可点击显示多说评论框
 #lazy_load_duoshuo: true
-
 # ---------------- #
 #    Analytics     #
 # ---------------- #
 google:
     analytics_id: UA-80669434-1
-
 # ---------------- #
 #      Datas       #
 # ---------------- #
 skill_software_keywords: [Java, C, Python, Golang,前端]
 skill_mobile_app_keywords: [Android, Wex5, phoneGap]
 #skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
-
 # ---------------- #
 # Github metadata  #
 # ---------------- #
