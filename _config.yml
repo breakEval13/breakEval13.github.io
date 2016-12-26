@@ -4,8 +4,8 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: 飞鱼。
-subtitle: "打码改变人生"
+title: 会飞的胖子。
+subtitle: "What is bitter, what is difficult, what is high, and how far away."
 description: "张建新个人博客"
 keywords: 张建新, Zhuang Ma, mzlogin, mazhuang,张建新博,docker,Docker,Dockerfile,zmatsh
 favicon: /favicon.ico
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 飞鱼
+author: 会飞的胖子
 organization: winhong, Inc.
 organization_url: https://winhong.com
 location: Beijing, China
