@@ -107,7 +107,7 @@ skill_software_keywords: [Java, C, Python, Golang,前端]
 skill_mobile_app_keywords: [Android, Wex5, phoneGap]
 #skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
 # ---------------- #
-# Githu  bmetadata #
+# Github metadata  #
 # ---------------- #
 gems: ['jekyll-github-metadata','jekyll-paginate','jekyll-feed']
 repository: zmatsh/zmatsh.github.io
