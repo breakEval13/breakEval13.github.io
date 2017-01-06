@@ -4,21 +4,21 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: 会飞的胖子。
+title: ??????
 subtitle: "What is bitter, what is difficult, what is high, and how far away."
-description: "张建新个人博客"
-keywords: 张建新, Zhuang Ma, mzlogin, mazhuang,张建新博,docker,Docker,Dockerfile,zmatsh
+description: "???????"
+keywords: ???, Zhuang Ma, mzlogin, mazhuang,????,docker,Docker,Dockerfile,zmatsh
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
 source_code: https://github.com/zmatsh/zmatsh.github.io/
-side_bar_repo_limit: 5
+side_bar_repo_limit: 6
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 会飞的胖子
-organization: winhong, Inc.
+author: ?????
+organization: Winhong, Inc.
 organization_url: https://winhong.com
 location: Beijing, China
 email: zhang-rd-fe@s139.org
@@ -28,24 +28,24 @@ email: zhang-rd-fe@s139.org
 navs:
   -
     href: /
-    label: 首页
+    label: ??
   -
     href: /categories/
-    label: 分类
-  
+    label: ??
+
   -
     href: /open-source/
-    label: 开源
-    
+    label: ??
+
   -
     href: /wiki/
-    label: 维基
+    label: ??
   -
     href: /links/
-    label: 链接
+    label: ??
   -
     href: /about/
-    label: 关于
+    label: ??
 # ---------------- #
 #       RSS        #
 # ---------------- #
@@ -89,11 +89,11 @@ facebook_username: zmatsh
 # ---------------- #
 # support provider: disqus, duoshuo
 #comments_provider: disqus
-# !!!重要!!! 请修改下面两个用户名为你自己申请的
+# !!!??!!! ?????????????????
 # !!!Important!!! Please modify usernames below to yours
 #duoshuo_username: mazhuang
 #disqus_username: mzlogin
-# 在使用 disqus 的时候可点击显示多说评论框
+# ??? disqus ?????????????
 #lazy_load_duoshuo: true
 # ---------------- #
 #    Analytics     #
@@ -103,7 +103,7 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_software_keywords: [Java, C, Python, Golang,前端]
+skill_software_keywords: [Java, C, Python, Golang,??]
 skill_mobile_app_keywords: [Android, Wex5, phoneGap]
 #skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
 # ---------------- #
