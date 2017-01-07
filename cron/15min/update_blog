@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /root/zmatsh.github.io && git pull >> /root/update.log 2>&1
