@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.3.3
 before_install:
-  -  openssl aes-256-cbc -K $encrypted_11a7762f2f0f_key -iv $encrypted_11a7762f2f0f_iv -in linode_id_rsa.enc -out ~/.ssh/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_11a7762f2f0f_key -iv $encrypted_11a7762f2f0f_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
 script:
   - bundle install
@@ -16,7 +16,7 @@ after_success:
   - git commit -m "Travis CI Auto Builder"
 #  - git push --force https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master
   - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master:master
-  - ssh root@cgroup.ltd -p 19782 "docker restart 66697251e571"
+  - ssh root@cgroup.ltd -p 19782 docker restart 66697251e571
 branches:
   only:
     - master
