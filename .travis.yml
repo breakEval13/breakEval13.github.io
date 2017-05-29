@@ -14,7 +14,7 @@ after_success:
   - git config user.email "net@socializeq.com"
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
-  - git push --force https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git origin master
+  - git push --force https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master
 #  - ssh root@cgroup.ltd "docker restart blog_jekyll"
 branches:
   only:
