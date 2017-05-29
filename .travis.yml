@@ -8,7 +8,7 @@ script:
   - bundle install
   - bundle exec jekyll build
 after_success:
-  - git clone https://github.com/mritd/mritd.me.git
+  - git clone https://github.com/zmatsh/zmatsh.github.io.git
   - cd mritd.me && rm -rf * && cp -r ../_site/* .
   - git config user.name "zhangjianxin1"
   - git config user.email "net@socializeq.com"
