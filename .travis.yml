@@ -24,4 +24,4 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 addons:
-  ssh_known_hosts: cgroup.ltd
+  ssh_known_hosts: localhost
