@@ -16,7 +16,7 @@ after_success:
   - git commit -m "Travis CI Auto Builder"
 #  - git push --force https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master
   - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master:master
-#  - ssh root@cgroup.ltd "docker restart blog_jekyll"
+  - ssh root@cgroup.ltd "docker restart 66697251e571"
 branches:
   only:
     - master
