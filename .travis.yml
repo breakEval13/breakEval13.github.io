@@ -23,5 +23,5 @@ branches:
 env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-#addons:
-#  ssh_known_hosts: cgroup.ltd
+addons:
+  ssh_known_hosts: cgroup.ltd
