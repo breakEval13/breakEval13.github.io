@@ -2,20 +2,20 @@ language: ruby
 rvm:
   - 2.3.3
 before_install:
-  - openssl aes-256-cbc -K $encrypted_18c18cd4d20c_key -iv $encrypted_18c18cd4d20c_iv -in travis-ci.key.enc -out ~/.ssh/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_11a7762f2f0f_key -iv $encrypted_11a7762f2f0f_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
 script:
   - bundle install
   - bundle exec jekyll build
 after_success:
-  - git clone https://github.com/zmatsh/zmatsh.github.io.git
+  - git clone https://github.com/mritd/mritd.me.git
   - cd mritd.me && rm -rf * && cp -r ../_site/* .
-  - git config user.name "zmatsh"
+  - git config user.name "zhangjianxin1"
   - git config user.email "net@socializeq.com"
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
-  - git push --force https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/zmatsh.github.io.git master
-  - ssh root@cgroup.ltd "docker restart mritd_jekyll_1"
+  - git push --force https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master
+  - ssh root@cgroup.ltd "docker restart blog_jekyll"
 branches:
   only:
     - master
