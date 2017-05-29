@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="349">
-              <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -242,7 +242,7 @@
       <workItem from="1494985439033" duration="10044000" />
       <workItem from="1495163663474" duration="981000" />
       <workItem from="1495180466394" duration="16000" />
-      <workItem from="1496077749835" duration="9244000" />
+      <workItem from="1496077749835" duration="9638000" />
     </task>
     <task id="LOCAL-00001" summary="修改博客名称">
       <created>1494985593159</created>
@@ -398,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496090667639</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="success full">
+      <created>1496091120113</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1496091120113</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22031000" />
+    <option name="totallyTimeSpent" value="22425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -765,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding />
         </state>
       </provider>
