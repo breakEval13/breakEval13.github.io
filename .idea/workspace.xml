@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md" afterPath="$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-docker-mac-clear-up.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-384">
+              <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                 <folding />
               </first_editor>
@@ -87,16 +87,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-06-13-npm-ocr-nodejs.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-06-13-npm-ocr-nodejs.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <first_editor relative-caret-position="1536">
+                <caret line="64" column="32" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
                 <folding>
-                  <marker date="1497370114000" expanded="true" signature="625:665" ph="{...}" />
-                  <marker date="1497370114000" expanded="true" signature="871:911" ph="{...}" />
-                  <marker date="1497370114000" expanded="true" signature="1121:1161" ph="{...}" />
+                  <marker date="1497427794000" expanded="true" signature="620:660" ph="{...}" />
+                  <marker date="1497427794000" expanded="true" signature="860:900" ph="{...}" />
+                  <marker date="1497427794000" expanded="true" signature="1104:1144" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-06-13-travis-ci-myblog.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-06-13-travis-ci-myblog.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="473">
+              <first_editor relative-caret-position="486">
                 <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
                 <folding>
                   <marker date="1497372066000" expanded="true" signature="887:894" ph="node_js" />
@@ -185,8 +185,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-06-06-kafka-install.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-13-docker-mac-clear-up.md" />
         <option value="$PROJECT_DIR$/README.MD" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md" />
       </list>
     </option>
   </component>
@@ -246,8 +246,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +394,8 @@
       <workItem from="1496998633480" duration="1854000" />
       <workItem from="1497262190819" duration="575000" />
       <workItem from="1497367960260" duration="905000" />
-      <workItem from="1497369946998" duration="2061000" />
+      <workItem from="1497369946998" duration="2172000" />
+      <workItem from="1497427780023" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="修改博客名称">
       <created>1494985593159</created>
@@ -634,24 +635,31 @@
       <option name="project" value="LOCAL" />
       <updated>1497370124713</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add pages">
+      <created>1497372113906</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1497372113906</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41358000" />
+    <option name="totallyTimeSpent" value="41486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30259192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30198914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877551" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877551" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -702,10 +710,10 @@
     <MESSAGE value="rename" />
     <MESSAGE value="success full" />
     <MESSAGE value="add config" />
-    <MESSAGE value="add pages" />
     <MESSAGE value="修改自己所在的公司" />
     <MESSAGE value="修改文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文章" />
+    <MESSAGE value="add pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,7 +973,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="432">
             <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -976,7 +983,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -987,7 +993,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1044,21 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-            <folding>
-              <marker date="1497370114000" expanded="true" signature="625:665" ph="{...}" />
-              <marker date="1497370114000" expanded="true" signature="871:911" ph="{...}" />
-              <marker date="1497370114000" expanded="true" signature="1121:1161" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1078,7 +1068,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-docker-mac-clear-up.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-384">
+          <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
             <folding />
           </first_editor>
@@ -1089,7 +1079,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="473">
+          <first_editor relative-caret-position="486">
             <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
             <folding>
               <marker date="1497372066000" expanded="true" signature="887:894" ph="node_js" />
@@ -1111,6 +1101,21 @@
               <marker date="1497372066000" expanded="true" signature="1330:1340" ph="hexo clean" />
               <marker date="1497372066000" expanded="true" signature="1343:1349" ph="hexo g" />
               <marker date="1497372066000" expanded="true" signature="1352:1363" ph="hexo deploy" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1536">
+            <caret line="64" column="32" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+            <folding>
+              <marker date="1497427794000" expanded="true" signature="620:660" ph="{...}" />
+              <marker date="1497427794000" expanded="true" signature="860:900" ph="{...}" />
+              <marker date="1497427794000" expanded="true" signature="1104:1144" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
