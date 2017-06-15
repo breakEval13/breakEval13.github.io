@@ -62,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="89">
-                <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <first_editor relative-caret-position="497">
+                <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -420,7 +420,7 @@
       <workItem from="1497367960260" duration="905000" />
       <workItem from="1497369946998" duration="2172000" />
       <workItem from="1497427780023" duration="92000" />
-      <workItem from="1497533990885" duration="1424000" />
+      <workItem from="1497533990885" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="修改博客名称">
       <created>1494985593159</created>
@@ -681,11 +681,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497535103880</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add pages">
+      <created>1497535475242</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1497535475242</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42985000" />
+    <option name="totallyTimeSpent" value="43009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1141,8 +1148,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="89">
-            <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <first_editor relative-caret-position="497">
+            <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />
