@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="add pages">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/QQ20170615-214859@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blog/QQ20170615-215055@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
+    <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" afterPath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +62,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="47" column="37" lean-forward="false" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+              <first_editor relative-caret-position="89">
+                <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -422,7 +420,7 @@
       <workItem from="1497367960260" duration="905000" />
       <workItem from="1497369946998" duration="2172000" />
       <workItem from="1497427780023" duration="92000" />
-      <workItem from="1497533990885" duration="1065000" />
+      <workItem from="1497533990885" duration="1424000" />
     </task>
     <task id="LOCAL-00001" summary="修改博客名称">
       <created>1494985593159</created>
@@ -676,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497427801824</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add pages">
+      <created>1497535103880</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1497535103880</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42626000" />
+    <option name="totallyTimeSpent" value="42985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1136,8 +1141,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="47" column="37" lean-forward="false" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+          <first_editor relative-caret-position="89">
+            <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
             <folding />
           </first_editor>
           <second_editor />
