@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" afterPath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" afterPath="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,132 +17,33 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-06-13-docker-mac-clear-up.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-docker-mac-clear-up.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-05-30-CICD成功部署.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-05-30-CICD成功部署.md">
+    <leaf>
+      <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNAME">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-06-13-npm-ocr-nodejs.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1536">
-                <caret line="64" column="32" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-                <folding>
-                  <marker date="1497427794000" expanded="true" signature="620:660" ph="{...}" />
-                  <marker date="1497427794000" expanded="true" signature="860:900" ph="{...}" />
-                  <marker date="1497427794000" expanded="true" signature="1104:1144" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-06-15-npm-node-version-q.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="497">
-                <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QQ20170615-214859@2x.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/QQ20170615-214859@2x.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-06-6-Jenkins-docker-kubectl-same-master.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-06-6-Jenkins-docker-kubectl-same-master.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="185">
-                <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-06-13-travis-ci-myblog.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                <folding>
-                  <marker date="1497372066000" expanded="true" signature="887:894" ph="node_js" />
-                  <marker date="1497372066000" expanded="true" signature="896:912" ph="node_js: &lt;1 item&gt;" />
-                  <marker date="1497372066000" expanded="true" signature="907:912" ph="4.1" />
-                  <marker date="1497372066000" expanded="true" signature="913:1252" ph="before_install: &lt;7 items&gt;" />
-                  <marker date="1497372066000" expanded="true" signature="931:1051" ph="openssl a…/id_rsa -d" />
-                  <marker date="1497372066000" expanded="true" signature="1054:1077" ph="chmod 600…ssh/id_rsa" />
-                  <marker date="1497372066000" expanded="true" signature="1080:1097" ph="eval $(ssh-agent)" />
-                  <marker date="1497372066000" expanded="true" signature="1100:1121" ph="ssh-add ~…ssh/id_rsa" />
-                  <marker date="1497372066000" expanded="true" signature="1124:1151" ph="cp ssh_co…ssh/config" />
-                  <marker date="1497372066000" expanded="true" signature="1154:1194" ph="git confi…&quot;pangjian&quot;" />
-                  <marker date="1497372066000" expanded="true" signature="1197:1252" ph="git confi…gmail.com&quot;" />
-                  <marker date="1497372066000" expanded="true" signature="1254:1302" ph="install: &lt;2 items&gt;" />
-                  <marker date="1497372066000" expanded="true" signature="1265:1288" ph="npm insta…exo-cli -g" />
-                  <marker date="1497372066000" expanded="true" signature="1291:1302" ph="npm install" />
-                  <marker date="1497372066000" expanded="true" signature="1304:1363" ph="script: &lt;4 items&gt;" />
-                  <marker date="1497372066000" expanded="true" signature="1314:1327" ph="hexo -version" />
-                  <marker date="1497372066000" expanded="true" signature="1330:1340" ph="hexo clean" />
-                  <marker date="1497372066000" expanded="true" signature="1343:1349" ph="hexo g" />
-                  <marker date="1497372066000" expanded="true" signature="1352:1363" ph="hexo deploy" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-06-06-kargo-k8s-1.6.4.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-06-06-kargo-k8s-1.6.4.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-576">
-                <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="10" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-05-31-crateDb数据目录发生修改.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-05-31-crateDb数据目录发生修改.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="37" />
+              <first_editor relative-caret-position="336">
+                <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -164,10 +65,8 @@
         <option value="$PROJECT_DIR$/setup.sh" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/_posts/2017-05-30-CICD成功部署.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-6-kubernetes-same-master.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-6-Jenkins-docker-kubectl-same-master.md" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2016-06-02-kafka.md" />
         <option value="$PROJECT_DIR$/_posts/2016-05-30-Nginx-IP.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-06-kargo-k8s-1.6.4.md" />
@@ -178,6 +77,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" />
       </list>
     </option>
   </component>
@@ -210,6 +111,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,45 +134,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,7 +289,10 @@
       <workItem from="1497367960260" duration="905000" />
       <workItem from="1497369946998" duration="2172000" />
       <workItem from="1497427780023" duration="92000" />
-      <workItem from="1497533990885" duration="1448000" />
+      <workItem from="1497533990885" duration="2023000" />
+      <workItem from="1497724623094" duration="170000" />
+      <workItem from="1497724797167" duration="289000" />
+      <workItem from="1497725116375" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="修改博客名称">
       <created>1494985593159</created>
@@ -688,35 +560,43 @@
       <option name="project" value="LOCAL" />
       <updated>1497535475242</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="add pages">
+      <created>1497535499778</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1497535499778</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43009000" />
+    <option name="totallyTimeSpent" value="44071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3013864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29957807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2877551" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25714287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -781,13 +661,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -941,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-05-30-Nginx-IP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -994,7 +860,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1004,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +886,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="216">
             <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1033,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="17" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +910,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1061,11 +920,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1536">
             <caret line="64" column="32" lean-forward="false" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-            <folding>
-              <marker date="1497427794000" expanded="true" signature="620:660" ph="{...}" />
-              <marker date="1497427794000" expanded="true" signature="860:900" ph="{...}" />
-              <marker date="1497427794000" expanded="true" signature="1104:1144" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1076,27 +930,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-            <folding>
-              <marker date="1497372066000" expanded="true" signature="887:894" ph="node_js" />
-              <marker date="1497372066000" expanded="true" signature="896:912" ph="node_js: &lt;1 item&gt;" />
-              <marker date="1497372066000" expanded="true" signature="907:912" ph="4.1" />
-              <marker date="1497372066000" expanded="true" signature="913:1252" ph="before_install: &lt;7 items&gt;" />
-              <marker date="1497372066000" expanded="true" signature="931:1051" ph="openssl a…/id_rsa -d" />
-              <marker date="1497372066000" expanded="true" signature="1054:1077" ph="chmod 600…ssh/id_rsa" />
-              <marker date="1497372066000" expanded="true" signature="1080:1097" ph="eval $(ssh-agent)" />
-              <marker date="1497372066000" expanded="true" signature="1100:1121" ph="ssh-add ~…ssh/id_rsa" />
-              <marker date="1497372066000" expanded="true" signature="1124:1151" ph="cp ssh_co…ssh/config" />
-              <marker date="1497372066000" expanded="true" signature="1154:1194" ph="git confi…&quot;pangjian&quot;" />
-              <marker date="1497372066000" expanded="true" signature="1197:1252" ph="git confi…gmail.com&quot;" />
-              <marker date="1497372066000" expanded="true" signature="1254:1302" ph="install: &lt;2 items&gt;" />
-              <marker date="1497372066000" expanded="true" signature="1265:1288" ph="npm insta…exo-cli -g" />
-              <marker date="1497372066000" expanded="true" signature="1291:1302" ph="npm install" />
-              <marker date="1497372066000" expanded="true" signature="1304:1363" ph="script: &lt;4 items&gt;" />
-              <marker date="1497372066000" expanded="true" signature="1314:1327" ph="hexo -version" />
-              <marker date="1497372066000" expanded="true" signature="1330:1340" ph="hexo clean" />
-              <marker date="1497372066000" expanded="true" signature="1343:1349" ph="hexo g" />
-              <marker date="1497372066000" expanded="true" signature="1352:1363" ph="hexo deploy" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1105,20 +938,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-06-kargo-k8s-1.6.4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-576">
+          <first_editor relative-caret-position="312">
             <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="37" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1127,9 +948,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-6-Jenkins-docker-kubectl-same-master.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="185">
-            <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="15" />
-            <folding />
+          <first_editor relative-caret-position="5472">
+            <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -1140,16 +960,38 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/npmnodejsn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/npmnodejsn.png" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="497">
-            <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+          <first_editor relative-caret-position="113">
+            <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
