@@ -18,7 +18,7 @@ keywords: Javascript, nodejs
 
 ## Javascript闭包
 
-```javascript 1.6
+```javascript
 /**
  * Created by zhangjianxin on 2017/6/21.
  */
@@ -30,21 +30,21 @@ function a(){
     }
 }
 
-var b = a;      //此处a和b是一模一样的,b是从a拷贝了一份过去
-var c1 = a();   //此处a加上了括号，于是c1的函数其实就是 a中return回来的函数（此函数可以调用a外面的变量tmp）
-var c2 = b();   //为了证明a和b是同样的功能，且是复制了一份
-c1(3);    //输出4
-c1(3);    //输出5,——说明a并内存并未释放
+var b = a;      /**此处a和b是一模一样的,b是从a拷贝了一份过去*/
+var c1 = a();   /**此处a加上了括号，于是c1的函数其实就是 a中return回来的函数（此函数可以调用a外面的变量tmp）*/
+var c2 = b();   /**为了证明a和b是同样的功能，且是复制了一份*/
+c1(3);    /**输出4*/
+c1(3);    /**输出5,——说明a并内存并未释放*/
 
-c2(3);    //输出4——说明a和b是复制关系(两个独立的对象)，内存中互相独立
-//另外一个例子***************************************************** * *
+c2(3);    /**输出4——说明a和b是复制关系(两个独立的对象)，内存中互相独立*/
+/**另外一个例子***************************************************** * **/
 var test = (function(){
     var tmp=1;
     return function(x){
         console.log(tmp+x);
     }
 })
-var d = test();     //var objname = function(){...}和 function objname(){...}定义是一样的效果
+var d = test();     /**var objname = function(){...}和 function objname(){...}定义是一样的效果*/
 d(3)
 
 ```
@@ -79,7 +79,7 @@ fuckthis.func3();
 
 ```
 
-## Javascript 圆型
+## Javascript原型
 
 ```javascript
 

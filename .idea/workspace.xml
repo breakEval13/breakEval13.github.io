@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gaokeyong.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/kubernetes1.6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md" afterPath="$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,29 +34,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-06-21-javascript-leaning.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-06-21-javascript-leaning.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="505">
-                <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+              <first_editor relative-caret-position="1944">
+                <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
                 <folding>
-                  <marker date="1498054299000" expanded="true" signature="274:322" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
-                  <marker date="1498054299000" expanded="true" signature="336:422" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="381:420" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="633:733" ph="//..." />
-                  <marker date="1498054299000" expanded="true" signature="756:832" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="795:830" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="968:1016" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
-                  <marker date="1498054299000" expanded="true" signature="1035:1289" ph="{&quot;var1&quot;: &quot;asdasd&quot;...}" />
-                  <marker date="1498054299000" expanded="true" signature="1079:1148" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="1172:1233" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="1258:1287" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="1348:1396" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
-                  <marker date="1498054299000" expanded="true" signature="1417:1447" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="1508:1546" ph="{...}" />
-                  <marker date="1498054299000" expanded="true" signature="1585:1628" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="270:318" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="332:418" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="377:416" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="436:464" ph="/** 此处a和b是一模一样的,b是从a拷贝了一份过去 ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="481:538" ph="/** 此处a加上了括号，于是c1的函数其实就是 a中return回来的函数（此函数可以调用a外面的变量tmp） ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="555:581" ph="/** 为了证明a和b是同样的功能，且是复制了一份 ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="592:600" ph="/** 输出4 ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="611:632" ph="/** 输出5,——说明a并内存并未释放 ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="644:681" ph="/** 输出4——说明a和b是复制关系(两个独立的对象)，内存中互相独立 ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="682:750" ph="/** 另外一个例子***************************************************** * ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="773:849" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="812:847" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="871:938" ph="/** var objname = function(){...}和 function objname(){...}定义是一样的效果 ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="988:1036" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="1055:1309" ph="{&quot;var1&quot;: &quot;asdasd&quot;...}" />
+                  <marker date="1498054639000" expanded="true" signature="1099:1168" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="1192:1253" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="1278:1307" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="1367:1415" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
+                  <marker date="1498054639000" expanded="true" signature="1436:1466" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="1527:1565" ph="{...}" />
+                  <marker date="1498054639000" expanded="true" signature="1604:1647" ph="{...}" />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-21-kubernetes-1.6.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="481">
+                <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -89,6 +112,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>/**</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,6 +148,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-05-09-kubernetes-ceph-rbd.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-20-ngrok-docker.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md" />
       </list>
     </option>
   </component>
@@ -175,6 +204,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zmatsh.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zmatsh.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -199,10 +242,10 @@
       <recent name="https://github.com/zmatsh/dist.git" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/blog" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -338,14 +381,7 @@
       <workItem from="1497843893441" duration="1532000" />
       <workItem from="1497946391125" duration="705000" />
       <workItem from="1498014631927" duration="19000" />
-      <workItem from="1498053867979" duration="443000" />
-    </task>
-    <task id="LOCAL-00001" summary="修改博客名称">
-      <created>1494985593159</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1494985593159</updated>
+      <workItem from="1498053867979" duration="1115000" />
     </task>
     <task id="LOCAL-00002" summary="修改博客名称">
       <created>1494985814024</created>
@@ -683,36 +719,43 @@
       <option name="project" value="LOCAL" />
       <updated>1497946499550</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add pages">
+      <created>1498054318603</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1498054318603</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49111000" />
+    <option name="totallyTimeSpent" value="49783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2965642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2965642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25510204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25510204" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -762,7 +805,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/id_rsa" />
     <entry file="file://$PROJECT_DIR$/setup.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1144,25 +1186,43 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="505">
-            <caret line="107" column="3" lean-forward="true" selection-start-line="107" selection-start-column="3" selection-end-line="107" selection-end-column="3" />
+          <first_editor relative-caret-position="1944">
+            <caret line="81" column="14" lean-forward="false" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
             <folding>
-              <marker date="1498054299000" expanded="true" signature="274:322" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
-              <marker date="1498054299000" expanded="true" signature="336:422" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="381:420" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="633:733" ph="//..." />
-              <marker date="1498054299000" expanded="true" signature="756:832" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="795:830" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="968:1016" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
-              <marker date="1498054299000" expanded="true" signature="1035:1289" ph="{&quot;var1&quot;: &quot;asdasd&quot;...}" />
-              <marker date="1498054299000" expanded="true" signature="1079:1148" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="1172:1233" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="1258:1287" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="1348:1396" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
-              <marker date="1498054299000" expanded="true" signature="1417:1447" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="1508:1546" ph="{...}" />
-              <marker date="1498054299000" expanded="true" signature="1585:1628" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="270:318" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
+              <marker date="1498054639000" expanded="true" signature="332:418" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="377:416" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="436:464" ph="/** 此处a和b是一模一样的,b是从a拷贝了一份过去 ...*/" />
+              <marker date="1498054639000" expanded="true" signature="481:538" ph="/** 此处a加上了括号，于是c1的函数其实就是 a中return回来的函数（此函数可以调用a外面的变量tmp） ...*/" />
+              <marker date="1498054639000" expanded="true" signature="555:581" ph="/** 为了证明a和b是同样的功能，且是复制了一份 ...*/" />
+              <marker date="1498054639000" expanded="true" signature="592:600" ph="/** 输出4 ...*/" />
+              <marker date="1498054639000" expanded="true" signature="611:632" ph="/** 输出5,——说明a并内存并未释放 ...*/" />
+              <marker date="1498054639000" expanded="true" signature="644:681" ph="/** 输出4——说明a和b是复制关系(两个独立的对象)，内存中互相独立 ...*/" />
+              <marker date="1498054639000" expanded="true" signature="682:750" ph="/** 另外一个例子***************************************************** * ...*/" />
+              <marker date="1498054639000" expanded="true" signature="773:849" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="812:847" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="871:938" ph="/** var objname = function(){...}和 function objname(){...}定义是一样的效果 ...*/" />
+              <marker date="1498054639000" expanded="true" signature="988:1036" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
+              <marker date="1498054639000" expanded="true" signature="1055:1309" ph="{&quot;var1&quot;: &quot;asdasd&quot;...}" />
+              <marker date="1498054639000" expanded="true" signature="1099:1168" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="1192:1253" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="1278:1307" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="1367:1415" ph="/** Created by zhangjianxin on 2017/6/21. ...*/" />
+              <marker date="1498054639000" expanded="true" signature="1436:1466" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="1527:1565" ph="{...}" />
+              <marker date="1498054639000" expanded="true" signature="1604:1647" ph="{...}" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="481">
+            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
