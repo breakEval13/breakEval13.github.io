@@ -18,12 +18,12 @@ keywords: Javascript, nodejs
 
 ##架构图
 
-![](images/kubernetes1.6.jpg)
+![请添加描述](/images/kubernetes1.6.jpg)
 
 
 ## 高可用架构图
 
-![](images/gaokeyong.png)
+![请添加描述](/images/gaokeyong.png)
 
 
 
