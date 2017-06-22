@@ -15,7 +15,7 @@ after_success:
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
   - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master:master
-  - ssh root@cgroup.ltd docker restart 3f31041eb1a6
+  - ssh root@cgroup.ltd docker restart 7a087c713af1
 branches:
   only:
     - master
