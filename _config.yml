@@ -4,10 +4,10 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: 飞鱼。
+title: 张建新
 subtitle: "What is bitter, what is difficult, what is high, and how far away."
 description: "张建新个人博客"
-keywords: 飞鱼,docker,张建新, Zhuang Ma, mzlogin, mazhuang,张建新博,docker,Docker,Dockerfile,zmatsh
+keywords: 张建新,docker,张建新, 张建新, 张建新, 张建新,张建新博,docker,Docker,Dockerfile,zmatsh
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 飞鱼
+author: 张建新
 organization: TimeOnData, Inc.
 organization_url: https://timeondata.com
 location: Beijing, China
