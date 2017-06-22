@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ssh链接报错 Unable to negotiate with 182.158.68.5 port 22: no matching host key type found. Their offer: ssh-dss。
+title: ssh链接报错 Unable to negotiate with IP
 categories: linux,sshd,ssh
 description: matching,ssh
 keywords: ssh, matching
