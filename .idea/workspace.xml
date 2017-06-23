@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-22-kubernetes-v-nfs.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/404.md" afterPath="$PROJECT_DIR$/pages/404.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/about.md" afterPath="$PROJECT_DIR$/pages/about.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,13 +70,140 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/404.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="1368">
                 <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-22-kubernetes-v-nfs.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-22-kubernetes-v-nfs.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="3408">
+                <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
+                <folding>
+                  <marker date="1498226253000" expanded="true" signature="460:462" ph="v1" />
+                  <marker date="1498226253000" expanded="true" signature="463:467" ph="kind" />
+                  <marker date="1498226253000" expanded="true" signature="469:472" ph="Pod" />
+                  <marker date="1498226253000" expanded="true" signature="469:481" ph="Pod metadata" />
+                  <marker date="1498226253000" expanded="true" signature="485:491" ph="labels" />
+                  <marker date="1498226253000" expanded="true" signature="497:501" ph="name" />
+                  <marker date="1498226253000" expanded="true" signature="503:517" ph="test-emptypath" />
+                  <marker date="1498226253000" expanded="true" signature="503:526" ph="test-emptypath role" />
+                  <marker date="1498226253000" expanded="true" signature="528:534" ph="master" />
+                  <marker date="1498226253000" expanded="true" signature="528:541" ph="master name" />
+                  <marker date="1498226253000" expanded="true" signature="543:557" ph="test-emptypath" />
+                  <marker date="1498226253000" expanded="true" signature="543:562" ph="test-emptypath spec" />
+                  <marker date="1498226253000" expanded="true" signature="566:576" ph="containers" />
+                  <marker date="1498226253000" expanded="true" signature="582:588" ph="- name" />
+                  <marker date="1498226253000" expanded="true" signature="590:604" ph="test-emptypath" />
+                  <marker date="1498226253000" expanded="true" signature="590:616" ph="test-emptypath image" />
+                  <marker date="1498226253000" expanded="true" signature="618:646" ph="registry:…_demon:1.0" />
+                  <marker date="1498226253000" expanded="true" signature="618:665" ph="registry:…lumeMounts" />
+                  <marker date="1498226253000" expanded="true" signature="674:680" ph="- name" />
+                  <marker date="1498226253000" expanded="true" signature="682:693" ph="log-storage" />
+                  <marker date="1498226253000" expanded="true" signature="682:712" ph="log-stora… mountPath" />
+                  <marker date="1498226253000" expanded="true" signature="714:731" ph="/home/laizy/test/" />
+                  <marker date="1498226253000" expanded="true" signature="714:745" ph="/home/lai…t/ command" />
+                  <marker date="1498226253000" expanded="true" signature="753:772" ph="- /run.sh volumes" />
+                  <marker date="1498226253000" expanded="true" signature="755:762" ph="/run.sh" />
+                  <marker date="1498226253000" expanded="true" signature="776:782" ph="- name" />
+                  <marker date="1498226253000" expanded="true" signature="784:795" ph="log-storage" />
+                  <marker date="1498226253000" expanded="true" signature="784:808" ph="log-storage emptyDir" />
+                  <marker date="1498226253000" expanded="true" signature="1230:1232" ph="v1" />
+                  <marker date="1498226253000" expanded="true" signature="1239:1242" ph="Pod" />
+                  <marker date="1498226253000" expanded="true" signature="1243:1325" ph="metadata: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1255:1303" ph="labels: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1273:1286" ph="test-hostpath" />
+                  <marker date="1498226253000" expanded="true" signature="1297:1303" ph="master" />
+                  <marker date="1498226253000" expanded="true" signature="1312:1325" ph="test-hostpath" />
+                  <marker date="1498226253000" expanded="true" signature="1326:1626" ph="spec: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1334:1555" ph="containers: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1358:1371" ph="test-hostpath" />
+                  <marker date="1498226253000" expanded="true" signature="1385:1413" ph="registry:…_demon:1.0" />
+                  <marker date="1498226253000" expanded="true" signature="1420:1524" ph="volumeMounts: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1449:1458" ph="ssl-certs" />
+                  <marker date="1498226253000" expanded="true" signature="1479:1500" ph="/home/lai…/test/cert" />
+                  <marker date="1498226253000" expanded="true" signature="1520:1524" ph="true" />
+                  <marker date="1498226253000" expanded="true" signature="1531:1555" ph="command: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1548:1555" ph="/run.sh" />
+                  <marker date="1498226253000" expanded="true" signature="1558:1626" ph="volumes: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1577:1586" ph="ssl-certs" />
+                  <marker date="1498226253000" expanded="true" signature="1591:1626" ph="hostPath: &lt;1 key&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1612:1626" ph="/etc/ssl/certs" />
+                  <marker date="1498226253000" expanded="true" signature="1646:1756" ph="成功登录 ```b… (yes/no)?" />
+                  <marker date="1498226253000" expanded="true" signature="1782:1784" ph="v1" />
+                  <marker date="1498226253000" expanded="true" signature="1791:1794" ph="Pod" />
+                  <marker date="1498226253000" expanded="true" signature="1795:1875" ph="metadata: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1807:1854" ph="labels: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1825:1837" ph="test-nfspath" />
+                  <marker date="1498226253000" expanded="true" signature="1848:1854" ph="master" />
+                  <marker date="1498226253000" expanded="true" signature="1863:1875" ph="test-nfspath" />
+                  <marker date="1498226253000" expanded="true" signature="1876:2172" ph="spec: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1884:2078" ph="containers: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1908:1920" ph="test-nfspath" />
+                  <marker date="1498226253000" expanded="true" signature="1934:1962" ph="registry:…_demon:1.0" />
+                  <marker date="1498226253000" expanded="true" signature="1969:2047" ph="volumeMounts: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="1998:2009" ph="nfs-storage" />
+                  <marker date="1498226253000" expanded="true" signature="2030:2047" ph="/home/laizy/test/" />
+                  <marker date="1498226253000" expanded="true" signature="2054:2078" ph="command: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="2071:2078" ph="/run.sh" />
+                  <marker date="1498226253000" expanded="true" signature="2081:2172" ph="volumes: &lt;1 item&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="2100:2111" ph="nfs-storage" />
+                  <marker date="1498226253000" expanded="true" signature="2116:2172" ph="nfs: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="2134:2147" ph="192.168.20.47" />
+                  <marker date="1498226253000" expanded="true" signature="2159:2172" ph="/data/disk1" />
+                  <marker date="1498226253000" expanded="true" signature="2453:2455" ph="v1" />
+                  <marker date="1498226253000" expanded="true" signature="2462:2468" ph="Secret" />
+                  <marker date="1498226253000" expanded="true" signature="2469:2494" ph="metadata: &lt;1 key&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="2486:2494" ph="mysecret" />
+                  <marker date="1498226253000" expanded="true" signature="2501:2507" ph="Opaque" />
+                  <marker date="1498226253000" expanded="true" signature="2508:2557" ph="data: &lt;2 keys&gt;" />
+                  <marker date="1498226253000" expanded="true" signature="2525:2533" ph="emhlbnl1" />
+                  <marker date="1498226253000" expanded="true" signature="2545:2557" ph="eWFvZGlkaWFv" />
+                  <marker date="1498226253000" expanded="true" signature="2573:2618" ph="root@k8s-…ecret.yaml" />
+                  <marker date="1498226253000" expanded="true" signature="2644:2646" ph="v1" />
+                  <marker date="1498226253000" expanded="true" signature="2647:2651" ph="kind" />
+                  <marker date="1498226253000" expanded="true" signature="2653:2656" ph="Pod" />
+                  <marker date="1498226253000" expanded="true" signature="2653:2665" ph="Pod metadata" />
+                  <marker date="1498226253000" expanded="true" signature="2669:2675" ph="labels" />
+                  <marker date="1498226253000" expanded="true" signature="2681:2685" ph="name" />
+                  <marker date="1498226253000" expanded="true" signature="2687:2698" ph="test-secret" />
+                  <marker date="1498226253000" expanded="true" signature="2687:2707" ph="test-secret role" />
+                  <marker date="1498226253000" expanded="true" signature="2709:2715" ph="master" />
+                  <marker date="1498226253000" expanded="true" signature="2709:2722" ph="master name" />
+                  <marker date="1498226253000" expanded="true" signature="2724:2735" ph="test-secret" />
+                  <marker date="1498226253000" expanded="true" signature="2724:2740" ph="test-secret spec" />
+                  <marker date="1498226253000" expanded="true" signature="2744:2754" ph="containers" />
+                  <marker date="1498226253000" expanded="true" signature="2760:2766" ph="- name" />
+                  <marker date="1498226253000" expanded="true" signature="2768:2779" ph="test-secret" />
+                  <marker date="1498226253000" expanded="true" signature="2768:2791" ph="test-secret image" />
+                  <marker date="1498226253000" expanded="true" signature="2793:2821" ph="registry:…_demon:1.0" />
+                  <marker date="1498226253000" expanded="true" signature="2793:2840" ph="registry:…lumeMounts" />
+                  <marker date="1498226253000" expanded="true" signature="2849:2855" ph="- name" />
+                  <marker date="1498226253000" expanded="true" signature="2857:2863" ph="secret" />
+                  <marker date="1498226253000" expanded="true" signature="2857:2882" ph="secret mountPath" />
+                  <marker date="1498226253000" expanded="true" signature="2884:2902" ph="/home/laizy/secret" />
+                  <marker date="1498226253000" expanded="true" signature="2884:2920" ph="/home/lai…t readOnly" />
+                  <marker date="1498226253000" expanded="true" signature="2922:2926" ph="true" />
+                  <marker date="1498226253000" expanded="true" signature="2922:2940" ph="true command" />
+                  <marker date="1498226253000" expanded="true" signature="2948:2967" ph="- /run.sh volumes" />
+                  <marker date="1498226253000" expanded="true" signature="2950:2957" ph="/run.sh" />
+                  <marker date="1498226253000" expanded="true" signature="2971:2977" ph="- name" />
+                  <marker date="1498226253000" expanded="true" signature="2979:2985" ph="secret" />
+                  <marker date="1498226253000" expanded="true" signature="2979:2996" ph="secret secret" />
+                  <marker date="1498226253000" expanded="true" signature="3003:3013" ph="secretName" />
+                  <marker date="1498226253000" expanded="true" signature="3015:3023" ph="mysecret" />
+                  <marker date="1498226253000" expanded="true" signature="3024:3027" ph="```" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -126,6 +252,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-06-22-sshd-error.md" />
         <option value="$PROJECT_DIR$/pages/about.md" />
         <option value="$PROJECT_DIR$/pages/404.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-22-kubernetes-v-nfs.md" />
       </list>
     </option>
   </component>
@@ -179,39 +306,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zmatsh.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weixin" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,8 +332,8 @@
       <recent name="https://github.com/zmatsh/dist.git" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/weixin" />
       <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/images/weixin" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/blog" />
@@ -381,14 +476,7 @@
       <workItem from="1498121376224" duration="1228000" />
       <workItem from="1498142859668" duration="1002000" />
       <workItem from="1498148810183" duration="1807000" />
-      <workItem from="1498187749258" duration="253000" />
-    </task>
-    <task id="LOCAL-00009" summary="修改 config">
-      <created>1496080745121</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1496080745121</updated>
+      <workItem from="1498187749258" duration="1565000" />
     </task>
     <task id="LOCAL-00010" summary="delete readme">
       <created>1496081404619</created>
@@ -726,17 +814,24 @@
       <option name="project" value="LOCAL" />
       <updated>1498150075983</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add pages">
+      <created>1498188004946</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1498188004946</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54738000" />
+    <option name="totallyTimeSpent" value="56050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2941531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2941531" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -805,11 +900,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/blog/chenmodedaduoshu.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/blog/hackathon.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1241,6 +1331,131 @@
           <first_editor relative-caret-position="1368">
             <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-22-kubernetes-v-nfs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="3408">
+            <caret line="142" column="14" lean-forward="true" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
+            <folding>
+              <marker date="1498226253000" expanded="true" signature="460:462" ph="v1" />
+              <marker date="1498226253000" expanded="true" signature="463:467" ph="kind" />
+              <marker date="1498226253000" expanded="true" signature="469:472" ph="Pod" />
+              <marker date="1498226253000" expanded="true" signature="469:481" ph="Pod metadata" />
+              <marker date="1498226253000" expanded="true" signature="485:491" ph="labels" />
+              <marker date="1498226253000" expanded="true" signature="497:501" ph="name" />
+              <marker date="1498226253000" expanded="true" signature="503:517" ph="test-emptypath" />
+              <marker date="1498226253000" expanded="true" signature="503:526" ph="test-emptypath role" />
+              <marker date="1498226253000" expanded="true" signature="528:534" ph="master" />
+              <marker date="1498226253000" expanded="true" signature="528:541" ph="master name" />
+              <marker date="1498226253000" expanded="true" signature="543:557" ph="test-emptypath" />
+              <marker date="1498226253000" expanded="true" signature="543:562" ph="test-emptypath spec" />
+              <marker date="1498226253000" expanded="true" signature="566:576" ph="containers" />
+              <marker date="1498226253000" expanded="true" signature="582:588" ph="- name" />
+              <marker date="1498226253000" expanded="true" signature="590:604" ph="test-emptypath" />
+              <marker date="1498226253000" expanded="true" signature="590:616" ph="test-emptypath image" />
+              <marker date="1498226253000" expanded="true" signature="618:646" ph="registry:…_demon:1.0" />
+              <marker date="1498226253000" expanded="true" signature="618:665" ph="registry:…lumeMounts" />
+              <marker date="1498226253000" expanded="true" signature="674:680" ph="- name" />
+              <marker date="1498226253000" expanded="true" signature="682:693" ph="log-storage" />
+              <marker date="1498226253000" expanded="true" signature="682:712" ph="log-stora… mountPath" />
+              <marker date="1498226253000" expanded="true" signature="714:731" ph="/home/laizy/test/" />
+              <marker date="1498226253000" expanded="true" signature="714:745" ph="/home/lai…t/ command" />
+              <marker date="1498226253000" expanded="true" signature="753:772" ph="- /run.sh volumes" />
+              <marker date="1498226253000" expanded="true" signature="755:762" ph="/run.sh" />
+              <marker date="1498226253000" expanded="true" signature="776:782" ph="- name" />
+              <marker date="1498226253000" expanded="true" signature="784:795" ph="log-storage" />
+              <marker date="1498226253000" expanded="true" signature="784:808" ph="log-storage emptyDir" />
+              <marker date="1498226253000" expanded="true" signature="1230:1232" ph="v1" />
+              <marker date="1498226253000" expanded="true" signature="1239:1242" ph="Pod" />
+              <marker date="1498226253000" expanded="true" signature="1243:1325" ph="metadata: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1255:1303" ph="labels: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1273:1286" ph="test-hostpath" />
+              <marker date="1498226253000" expanded="true" signature="1297:1303" ph="master" />
+              <marker date="1498226253000" expanded="true" signature="1312:1325" ph="test-hostpath" />
+              <marker date="1498226253000" expanded="true" signature="1326:1626" ph="spec: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1334:1555" ph="containers: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1358:1371" ph="test-hostpath" />
+              <marker date="1498226253000" expanded="true" signature="1385:1413" ph="registry:…_demon:1.0" />
+              <marker date="1498226253000" expanded="true" signature="1420:1524" ph="volumeMounts: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1449:1458" ph="ssl-certs" />
+              <marker date="1498226253000" expanded="true" signature="1479:1500" ph="/home/lai…/test/cert" />
+              <marker date="1498226253000" expanded="true" signature="1520:1524" ph="true" />
+              <marker date="1498226253000" expanded="true" signature="1531:1555" ph="command: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1548:1555" ph="/run.sh" />
+              <marker date="1498226253000" expanded="true" signature="1558:1626" ph="volumes: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1577:1586" ph="ssl-certs" />
+              <marker date="1498226253000" expanded="true" signature="1591:1626" ph="hostPath: &lt;1 key&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1612:1626" ph="/etc/ssl/certs" />
+              <marker date="1498226253000" expanded="true" signature="1646:1756" ph="成功登录 ```b… (yes/no)?" />
+              <marker date="1498226253000" expanded="true" signature="1782:1784" ph="v1" />
+              <marker date="1498226253000" expanded="true" signature="1791:1794" ph="Pod" />
+              <marker date="1498226253000" expanded="true" signature="1795:1875" ph="metadata: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1807:1854" ph="labels: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1825:1837" ph="test-nfspath" />
+              <marker date="1498226253000" expanded="true" signature="1848:1854" ph="master" />
+              <marker date="1498226253000" expanded="true" signature="1863:1875" ph="test-nfspath" />
+              <marker date="1498226253000" expanded="true" signature="1876:2172" ph="spec: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1884:2078" ph="containers: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1908:1920" ph="test-nfspath" />
+              <marker date="1498226253000" expanded="true" signature="1934:1962" ph="registry:…_demon:1.0" />
+              <marker date="1498226253000" expanded="true" signature="1969:2047" ph="volumeMounts: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="1998:2009" ph="nfs-storage" />
+              <marker date="1498226253000" expanded="true" signature="2030:2047" ph="/home/laizy/test/" />
+              <marker date="1498226253000" expanded="true" signature="2054:2078" ph="command: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="2071:2078" ph="/run.sh" />
+              <marker date="1498226253000" expanded="true" signature="2081:2172" ph="volumes: &lt;1 item&gt;" />
+              <marker date="1498226253000" expanded="true" signature="2100:2111" ph="nfs-storage" />
+              <marker date="1498226253000" expanded="true" signature="2116:2172" ph="nfs: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="2134:2147" ph="192.168.20.47" />
+              <marker date="1498226253000" expanded="true" signature="2159:2172" ph="/data/disk1" />
+              <marker date="1498226253000" expanded="true" signature="2453:2455" ph="v1" />
+              <marker date="1498226253000" expanded="true" signature="2462:2468" ph="Secret" />
+              <marker date="1498226253000" expanded="true" signature="2469:2494" ph="metadata: &lt;1 key&gt;" />
+              <marker date="1498226253000" expanded="true" signature="2486:2494" ph="mysecret" />
+              <marker date="1498226253000" expanded="true" signature="2501:2507" ph="Opaque" />
+              <marker date="1498226253000" expanded="true" signature="2508:2557" ph="data: &lt;2 keys&gt;" />
+              <marker date="1498226253000" expanded="true" signature="2525:2533" ph="emhlbnl1" />
+              <marker date="1498226253000" expanded="true" signature="2545:2557" ph="eWFvZGlkaWFv" />
+              <marker date="1498226253000" expanded="true" signature="2573:2618" ph="root@k8s-…ecret.yaml" />
+              <marker date="1498226253000" expanded="true" signature="2644:2646" ph="v1" />
+              <marker date="1498226253000" expanded="true" signature="2647:2651" ph="kind" />
+              <marker date="1498226253000" expanded="true" signature="2653:2656" ph="Pod" />
+              <marker date="1498226253000" expanded="true" signature="2653:2665" ph="Pod metadata" />
+              <marker date="1498226253000" expanded="true" signature="2669:2675" ph="labels" />
+              <marker date="1498226253000" expanded="true" signature="2681:2685" ph="name" />
+              <marker date="1498226253000" expanded="true" signature="2687:2698" ph="test-secret" />
+              <marker date="1498226253000" expanded="true" signature="2687:2707" ph="test-secret role" />
+              <marker date="1498226253000" expanded="true" signature="2709:2715" ph="master" />
+              <marker date="1498226253000" expanded="true" signature="2709:2722" ph="master name" />
+              <marker date="1498226253000" expanded="true" signature="2724:2735" ph="test-secret" />
+              <marker date="1498226253000" expanded="true" signature="2724:2740" ph="test-secret spec" />
+              <marker date="1498226253000" expanded="true" signature="2744:2754" ph="containers" />
+              <marker date="1498226253000" expanded="true" signature="2760:2766" ph="- name" />
+              <marker date="1498226253000" expanded="true" signature="2768:2779" ph="test-secret" />
+              <marker date="1498226253000" expanded="true" signature="2768:2791" ph="test-secret image" />
+              <marker date="1498226253000" expanded="true" signature="2793:2821" ph="registry:…_demon:1.0" />
+              <marker date="1498226253000" expanded="true" signature="2793:2840" ph="registry:…lumeMounts" />
+              <marker date="1498226253000" expanded="true" signature="2849:2855" ph="- name" />
+              <marker date="1498226253000" expanded="true" signature="2857:2863" ph="secret" />
+              <marker date="1498226253000" expanded="true" signature="2857:2882" ph="secret mountPath" />
+              <marker date="1498226253000" expanded="true" signature="2884:2902" ph="/home/laizy/secret" />
+              <marker date="1498226253000" expanded="true" signature="2884:2920" ph="/home/lai…t readOnly" />
+              <marker date="1498226253000" expanded="true" signature="2922:2926" ph="true" />
+              <marker date="1498226253000" expanded="true" signature="2922:2940" ph="true command" />
+              <marker date="1498226253000" expanded="true" signature="2948:2967" ph="- /run.sh volumes" />
+              <marker date="1498226253000" expanded="true" signature="2950:2957" ph="/run.sh" />
+              <marker date="1498226253000" expanded="true" signature="2971:2977" ph="- name" />
+              <marker date="1498226253000" expanded="true" signature="2979:2985" ph="secret" />
+              <marker date="1498226253000" expanded="true" signature="2979:2996" ph="secret secret" />
+              <marker date="1498226253000" expanded="true" signature="3003:3013" ph="secretName" />
+              <marker date="1498226253000" expanded="true" signature="3015:3023" ph="mysecret" />
+              <marker date="1498226253000" expanded="true" signature="3024:3027" ph="```" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
