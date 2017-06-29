@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kubernetes命名空间资源限制[原创]
+title: Kubernetes命名空间资源限制[学习]
 categories: Java, Scala,Hadoop,Flink
 description: Java, Scala,Hadoop,Flink
 keywords: Java, Scala,Hadoop,Flink
@@ -67,3 +67,5 @@ spec:
 
 
 ```
+
+> 感谢企业服务部牛总提供的解决方案
