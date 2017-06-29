@@ -32,6 +32,12 @@ Flink利用基于内存的数据流并将迭代处理算法深度集成到了系
 Flink支持所有的Hadoop所有的输入/输出格式和数据类型，这就使得开发者无需做任何修改就能够利用Flink运行历史遗留的MapReduce操作 
 Flink主要包括基于Java和Scala的用于批量和基于流数据分析的API、优化器和具有自定义内存管理功能的分布式运行时等，其主要架构如下：
 
+## 6. DEMO
+
+![Flink](/images/posts/flink/demo.gif)
+
+
+
 > 架构图 
 
 ![Flink](/images/flink.png)
