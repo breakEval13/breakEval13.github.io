@@ -120,5 +120,5 @@ skill_mobile_app_keywords: [Android, Wex5, phoneGap]
 # ---------------- #
 # Github metadata  #
 # ---------------- #
-gems: ['jekyll-github-metadata','jekyll-paginate','jekyll-feed']
+#gems: ['jekyll-github-metadata','jekyll-paginate','jekyll-feed']
 repository: zmatsh/zmatsh.github.io
