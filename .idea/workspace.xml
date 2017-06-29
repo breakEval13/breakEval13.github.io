@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/posts/java/20141227152045529.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" afterPath="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,19 +37,19 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="317">
-                <caret line="315" column="35" lean-forward="true" selection-start-line="315" selection-start-column="35" selection-end-line="315" selection-end-column="35" />
+              <first_editor relative-caret-position="101">
+                <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
                 <folding>
-                  <marker date="1498731506000" expanded="true" signature="979:1254" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="991:1033" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="1045:1241" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="1055:1137" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="1146:1232" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="3139:3379" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="3151:3193" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="3205:3366" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="3215:3268" ph="..." />
-                  <marker date="1498731506000" expanded="true" signature="3277:3357" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="979:1254" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="991:1033" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="1045:1241" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="1055:1137" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="1146:1232" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="3139:3379" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="3151:3193" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="3205:3366" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="3215:3268" ph="..." />
+                  <marker date="1498732291000" expanded="true" signature="3277:3357" ph="..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -406,14 +405,7 @@
       <workItem from="1498719606868" duration="442000" />
       <workItem from="1498720108329" duration="350000" />
       <workItem from="1498730653267" duration="312000" />
-      <workItem from="1498730996340" duration="529000" />
-    </task>
-    <task id="LOCAL-00020" summary="success full">
-      <created>1496089366900</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1496089366900</updated>
+      <workItem from="1498730996340" duration="1039000" />
     </task>
     <task id="LOCAL-00021" summary="success full">
       <created>1496090236874</created>
@@ -751,11 +743,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498720441369</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="修改配色">
+      <created>1498731534480</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1498731534481</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63647000" />
+    <option name="totallyTimeSpent" value="64157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="43" width="1680" height="965" extended-state="0" />
@@ -1241,19 +1240,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="317">
-            <caret line="315" column="35" lean-forward="true" selection-start-line="315" selection-start-column="35" selection-end-line="315" selection-end-column="35" />
+          <first_editor relative-caret-position="101">
+            <caret line="167" column="0" lean-forward="true" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
             <folding>
-              <marker date="1498731506000" expanded="true" signature="979:1254" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="991:1033" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="1045:1241" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="1055:1137" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="1146:1232" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="3139:3379" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="3151:3193" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="3205:3366" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="3215:3268" ph="..." />
-              <marker date="1498731506000" expanded="true" signature="3277:3357" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="979:1254" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="991:1033" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="1045:1241" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="1055:1137" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="1146:1232" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="3139:3379" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="3151:3193" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="3205:3366" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="3215:3268" ph="..." />
+              <marker date="1498732291000" expanded="true" signature="3277:3357" ph="..." />
             </folding>
           </first_editor>
           <second_editor />
