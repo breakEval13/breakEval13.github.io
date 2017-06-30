@@ -4,10 +4,10 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: 会飞的胖子.
+title: 然儿DADA.
 subtitle: "What is bitter, what is difficult, what is high, and how far away."
-description: "胖子个人博客"
-keywords: 会飞的胖子,docker,会飞的胖子, 会飞的胖子, 会飞的胖子, 会飞的胖子,张建新博,docker,Docker,Dockerfile,zmatsh
+description: "然erDADA，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术。"
+keywords: 会飞的胖子,docker,Github, Google Kubernetes, kubernetes, docker,java developemtn,docker,Docker,Dockerfile,zmatsh
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
