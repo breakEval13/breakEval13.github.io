@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="修改博客名称&#10;">
+    <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
@@ -21,13 +21,13 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+            <state relative-caret-position="144">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <marker date="1498816530000" expanded="true" signature="2571:2635" ph="gems: [3 items]" />
-                <marker date="1498816530000" expanded="true" signature="2578:2602" ph="jekyll-gi…b-metadata" />
-                <marker date="1498816530000" expanded="true" signature="2603:2620" ph="jekyll-paginate" />
-                <marker date="1498816530000" expanded="true" signature="2621:2634" ph="jekyll-feed" />
+                <marker date="1498816718000" expanded="true" signature="2581:2645" ph="gems: [3 items]" />
+                <marker date="1498816718000" expanded="true" signature="2588:2612" ph="jekyll-gi…b-metadata" />
+                <marker date="1498816718000" expanded="true" signature="2613:2630" ph="jekyll-paginate" />
+                <marker date="1498816718000" expanded="true" signature="2631:2644" ph="jekyll-feed" />
               </folding>
             </state>
           </provider>
@@ -322,14 +322,7 @@
       <workItem from="1498742088358" duration="2786000" />
       <workItem from="1498807027047" duration="19000" />
       <workItem from="1498814110938" duration="733000" />
-      <workItem from="1498816367153" duration="165000" />
-    </task>
-    <task id="LOCAL-00025" summary="add config">
-      <created>1496091960015</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1496091960015</updated>
+      <workItem from="1498816367153" duration="350000" />
     </task>
     <task id="LOCAL-00026" summary="add pages">
       <created>1496092596858</created>
@@ -667,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498752703289</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="修改博客名称&#10;">
+      <created>1498816535143</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1498816535144</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67880000" />
+    <option name="totallyTimeSpent" value="68065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="40" width="1680" height="971" extended-state="0" />
@@ -742,7 +742,8 @@
     <MESSAGE value="add pagess" />
     <MESSAGE value="修改配色" />
     <MESSAGE value="博客升级以及基本配置升级" />
-    <option name="LAST_COMMIT_MESSAGE" value="博客升级以及基本配置升级" />
+    <MESSAGE value="修改博客名称&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改博客名称&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1161,13 +1162,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
-            <marker date="1498816530000" expanded="true" signature="2571:2635" ph="gems: [3 items]" />
-            <marker date="1498816530000" expanded="true" signature="2578:2602" ph="jekyll-gi…b-metadata" />
-            <marker date="1498816530000" expanded="true" signature="2603:2620" ph="jekyll-paginate" />
-            <marker date="1498816530000" expanded="true" signature="2621:2634" ph="jekyll-feed" />
+            <marker date="1498816718000" expanded="true" signature="2581:2645" ph="gems: [3 items]" />
+            <marker date="1498816718000" expanded="true" signature="2588:2612" ph="jekyll-gi…b-metadata" />
+            <marker date="1498816718000" expanded="true" signature="2613:2630" ph="jekyll-paginate" />
+            <marker date="1498816718000" expanded="true" signature="2631:2644" ph="jekyll-feed" />
           </folding>
         </state>
       </provider>
