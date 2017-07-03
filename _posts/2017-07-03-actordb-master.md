@@ -58,4 +58,7 @@ ActorDB
 ### 4.1. 在actordb的github中下载thrift接口生成种子：adbt.thrift，使用thrift官网的生成工具生成实现thrift接口的类及相关类
 ### 4.2. 使用Thrift客户端进行连接，客户端使用详见thrift官网。
 ### 4.3. 使用生成的类作为Client，调用sql方法直接执行（sql举例如："actor metadata(lcy);select count(*) from conf"）。API包括了同步和异步的接口。
->Over
+
+:smile:
+
+>感谢公司多位同事的帮助,此文档来自公司一位大神(妹子) 
