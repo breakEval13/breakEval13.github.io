@@ -16,7 +16,7 @@ keywords: Java, FreeMarker
  ```
 ## 二、FreeMarker的简单介绍
  在进入正文前，让我们首先简单、快速了解一下FreeMarker。
-  （做过Web开发的朋友肯定都是相当熟悉的、小吕当时 也是在做Web开发的时候第一次接触了FreeMarker）
+  （做过Web开发的朋友肯定都是相当熟悉的 我当时 也是在做Web开发的时候第一次接触了FreeMarker）
 * 1、概述：FreeMarker是一款模板引擎：即一种基于模板、用来生成输出文本的通用工具。更多的是被用来设计生成HTML页面。
    简单说就是：FreeMarker是使用模板生成文本页面来呈现已经准备好的数据。如下图表述
    
