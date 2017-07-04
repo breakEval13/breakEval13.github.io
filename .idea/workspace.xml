@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-03-jekyll-emoji.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-05-21-enable-https-for-github-pages.md" afterPath="$PROJECT_DIR$/_posts/2016-05-21-enable-https-for-github-pages.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-03-add-outline-for-markdown-in-vim.md" afterPath="$PROJECT_DIR$/_posts/2016-08-03-add-outline-for-markdown-in-vim.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-20-java-output-ab.md" afterPath="$PROJECT_DIR$/_posts/2016-09-20-java-output-ab.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" afterPath="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" afterPath="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md" afterPath="$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-26-java-flink-v-desc.md" afterPath="$PROJECT_DIR$/_posts/2017-06-26-java-flink-v-desc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" afterPath="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md" afterPath="$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md" afterPath="$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="336">
-                <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <first_editor relative-caret-position="62">
+                <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -35,8 +44,71 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-jekyll-emoji.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="21480">
-                <caret line="895" column="20" lean-forward="true" selection-start-line="895" selection-start-column="20" selection-end-line="895" selection-end-column="20" />
+              <first_editor relative-caret-position="587">
+                <caret line="895" column="20" lean-forward="false" selection-start-line="895" selection-start-column="20" selection-end-line="895" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-13-npm-ocr-nodejs.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-456">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1497427794000" expanded="true" signature="620:660" ph="{...}" />
+                  <marker date="1497427794000" expanded="true" signature="860:900" ph="{...}" />
+                  <marker date="1497427794000" expanded="true" signature="1104:1144" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-13-travis-ci-myblog.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding>
+                  <marker date="1497372066000" expanded="true" signature="887:894" ph="node_js" />
+                  <marker date="1497372066000" expanded="true" signature="896:912" ph="node_js: &lt;1 item&gt;" />
+                  <marker date="1497372066000" expanded="true" signature="907:912" ph="4.1" />
+                  <marker date="1497372066000" expanded="true" signature="913:1252" ph="before_install: &lt;7 items&gt;" />
+                  <marker date="1497372066000" expanded="true" signature="931:1051" ph="openssl a…/id_rsa -d" />
+                  <marker date="1497372066000" expanded="true" signature="1054:1077" ph="chmod 600…ssh/id_rsa" />
+                  <marker date="1497372066000" expanded="true" signature="1080:1097" ph="eval $(ssh-agent)" />
+                  <marker date="1497372066000" expanded="true" signature="1100:1121" ph="ssh-add ~…ssh/id_rsa" />
+                  <marker date="1497372066000" expanded="true" signature="1124:1151" ph="cp ssh_co…ssh/config" />
+                  <marker date="1497372066000" expanded="true" signature="1154:1194" ph="git confi…&quot;pangjian&quot;" />
+                  <marker date="1497372066000" expanded="true" signature="1197:1252" ph="git confi…gmail.com&quot;" />
+                  <marker date="1497372066000" expanded="true" signature="1254:1302" ph="install: &lt;2 items&gt;" />
+                  <marker date="1497372066000" expanded="true" signature="1265:1288" ph="npm insta…exo-cli -g" />
+                  <marker date="1497372066000" expanded="true" signature="1291:1302" ph="npm install" />
+                  <marker date="1497372066000" expanded="true" signature="1304:1363" ph="script: &lt;4 items&gt;" />
+                  <marker date="1497372066000" expanded="true" signature="1314:1327" ph="hexo -version" />
+                  <marker date="1497372066000" expanded="true" signature="1330:1340" ph="hexo clean" />
+                  <marker date="1497372066000" expanded="true" signature="1343:1349" ph="hexo g" />
+                  <marker date="1497372066000" expanded="true" signature="1352:1363" ph="hexo deploy" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-24-java-development-b-desc.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-24-java-development-b-desc.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1635">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -49,19 +121,32 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="480">
-                <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+                <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
                 <folding>
-                  <marker date="1499074882000" expanded="true" signature="978:1253" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="990:1032" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="1044:1240" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="1054:1136" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="1145:1231" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="3138:3378" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="3150:3192" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="3204:3365" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="3214:3267" ph="..." />
-                  <marker date="1499074882000" expanded="true" signature="3276:3356" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="1000:1275" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="1012:1054" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="1066:1262" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="1076:1158" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="1167:1253" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="3160:3400" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="3172:3214" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="3226:3387" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="3236:3289" ph="..." />
+                  <marker date="1499146633000" expanded="true" signature="3298:3378" ph="..." />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-29-ffmpeg-mov-gif-mac.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="542">
+                <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -72,8 +157,34 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-java-flink-v-desc.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="864">
-                <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+              <first_editor relative-caret-position="542">
+                <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-15-npm-node-version-q.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="201">
+                <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-21-kubernetes-1.6.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="220">
+                <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -89,12 +200,18 @@
       <find>4183c4</find>
       <find>#4183c4</find>
       <find>lvzb.software@qq.com</find>
+      <find>\(/images</find>
     </findStrings>
     <replaceStrings>
       <replace>/**</replace>
       <replace>#4285f4</replace>
       <replace>github.com/zmatsh</replace>
+      <replace>https://zmatsh.b0.upaiyun.com</replace>
+      <replace>\(https://zmatsh.b0.upaiyun.com</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/_posts</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -103,7 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/linode_id_rsa" />
         <option value="$PROJECT_DIR$/compose" />
         <option value="$PROJECT_DIR$/setup.sh" />
         <option value="$PROJECT_DIR$/_posts/2017-05-30-CICD成功部署.md" />
@@ -118,14 +234,11 @@
         <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-19-mianshi-Java-development.md" />
         <option value="$PROJECT_DIR$/_posts/2016-12-26-Traefik-load-balancing.md" />
         <option value="$PROJECT_DIR$/_posts/2017-05-09-kubernetes-ceph-rbd.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-20-ngrok-docker.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-21-javascript-leaning.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/_posts/2017-06-22-sshd-error.md" />
         <option value="$PROJECT_DIR$/pages/about.md" />
@@ -137,8 +250,6 @@
         <option value="$PROJECT_DIR$/assets/css/posts/index.css" />
         <option value="$PROJECT_DIR$/assets/css/components/collection.css" />
         <option value="$PROJECT_DIR$/_posts/2017-06-29-Kubernetes-namespace-limits.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-26-java-flink-v-desc.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-29-Java-Enum-returncode.md" />
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -146,11 +257,20 @@
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2017-07-01-kcp-usb3-demo.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-02-linux-ls-wc.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-03-jekyll-emoji.md" />
+        <option value="$PROJECT_DIR$/images/upx.sh" />
+        <option value="$PROJECT_DIR$/_posts/2016-05-21-enable-https-for-github-pages.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-08-03-add-outline-for-markdown-in-vim.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-09-20-java-output-ab.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-26-java-flink-v-desc.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md" />
       </list>
     </option>
   </component>
@@ -161,9 +281,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="40" />
     <option name="width" value="1680" />
-    <option name="height" value="971" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -183,8 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,6 +330,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,14 +513,8 @@
       <workItem from="1498993489781" duration="4000" />
       <workItem from="1499008970396" duration="372000" />
       <workItem from="1499074826133" duration="2041000" />
-      <workItem from="1499077307878" duration="207000" />
-    </task>
-    <task id="LOCAL-00028" summary="add pages">
-      <created>1496292901592</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1496292901592</updated>
+      <workItem from="1499077307878" duration="232000" />
+      <workItem from="1499146155871" duration="478000" />
     </task>
     <task id="LOCAL-00029" summary="add pages">
       <created>1496999137475</created>
@@ -739,36 +852,43 @@
       <option name="project" value="LOCAL" />
       <updated>1499075324256</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="添加actordb 文章&#10;">
+      <created>1499077520158</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1499077520159</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72090000" />
+    <option name="totallyTimeSpent" value="72593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="40" width="1680" height="971" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24231465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26748058" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26734695" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31766126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -823,124 +943,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-22-sshd-error.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="24">
-            <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/wiki.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="648">
-            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/categories.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/links.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/404.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1368">
-            <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-22-kubernetes-v-nfs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-24-java-development-v-desc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-24-java-development-b-desc.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1284">
-            <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/flink-home-graphic-update.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/flink-header-logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/search_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/wiki.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1147,16 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1248">
-            <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-02-linux-ls-wc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1185,23 +1177,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md">
+    <entry file="file://$PROJECT_DIR$/images/flink-header-logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/flink-home-graphic-update.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/upx.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="480">
-            <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            <folding>
-              <marker date="1499074882000" expanded="true" signature="978:1253" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="990:1032" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="1044:1240" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="1054:1136" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="1145:1231" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="3138:3378" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="3150:3192" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="3204:3365" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="3214:3267" ph="..." />
-              <marker date="1499074882000" expanded="true" signature="3276:3356" ph="..." />
-            </folding>
+          <first_editor relative-caret-position="-73">
+            <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-21-enable-https-for-github-pages.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="187">
+            <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-08-03-add-outline-for-markdown-in-vim.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="196">
+            <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-09-20-java-output-ab.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="196">
+            <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-31-crateDb数据目录发生修改.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="201">
+            <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-15-npm-node-version-q.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="201">
+            <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-21-kubernetes-1.6.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="220">
+            <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1210,8 +1281,41 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-java-flink-v-desc.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="864">
-            <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <first_editor relative-caret-position="542">
+            <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-Java-FreeMarker.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <folding>
+              <marker date="1499146633000" expanded="true" signature="1000:1275" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="1012:1054" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="1066:1262" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="1076:1158" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="1167:1253" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="3160:3400" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="3172:3214" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="3226:3387" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="3236:3289" ph="..." />
+              <marker date="1499146633000" expanded="true" signature="3298:3378" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-29-ffmpeg-mov-gif-mac.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="542">
+            <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1221,8 +1325,65 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="336">
-            <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <first_editor relative-caret-position="62">
+            <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-npm-ocr-nodejs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-456">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1497427794000" expanded="true" signature="620:660" ph="{...}" />
+              <marker date="1497427794000" expanded="true" signature="860:900" ph="{...}" />
+              <marker date="1497427794000" expanded="true" signature="1104:1144" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-13-travis-ci-myblog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1497372066000" expanded="true" signature="887:894" ph="node_js" />
+              <marker date="1497372066000" expanded="true" signature="896:912" ph="node_js: &lt;1 item&gt;" />
+              <marker date="1497372066000" expanded="true" signature="907:912" ph="4.1" />
+              <marker date="1497372066000" expanded="true" signature="913:1252" ph="before_install: &lt;7 items&gt;" />
+              <marker date="1497372066000" expanded="true" signature="931:1051" ph="openssl a…/id_rsa -d" />
+              <marker date="1497372066000" expanded="true" signature="1054:1077" ph="chmod 600…ssh/id_rsa" />
+              <marker date="1497372066000" expanded="true" signature="1080:1097" ph="eval $(ssh-agent)" />
+              <marker date="1497372066000" expanded="true" signature="1100:1121" ph="ssh-add ~…ssh/id_rsa" />
+              <marker date="1497372066000" expanded="true" signature="1124:1151" ph="cp ssh_co…ssh/config" />
+              <marker date="1497372066000" expanded="true" signature="1154:1194" ph="git confi…&quot;pangjian&quot;" />
+              <marker date="1497372066000" expanded="true" signature="1197:1252" ph="git confi…gmail.com&quot;" />
+              <marker date="1497372066000" expanded="true" signature="1254:1302" ph="install: &lt;2 items&gt;" />
+              <marker date="1497372066000" expanded="true" signature="1265:1288" ph="npm insta…exo-cli -g" />
+              <marker date="1497372066000" expanded="true" signature="1291:1302" ph="npm install" />
+              <marker date="1497372066000" expanded="true" signature="1304:1363" ph="script: &lt;4 items&gt;" />
+              <marker date="1497372066000" expanded="true" signature="1314:1327" ph="hexo -version" />
+              <marker date="1497372066000" expanded="true" signature="1330:1340" ph="hexo clean" />
+              <marker date="1497372066000" expanded="true" signature="1343:1349" ph="hexo g" />
+              <marker date="1497372066000" expanded="true" signature="1352:1363" ph="hexo deploy" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-24-java-development-b-desc.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1635">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1232,8 +1393,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-jekyll-emoji.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21480">
-            <caret line="895" column="20" lean-forward="true" selection-start-line="895" selection-start-column="20" selection-end-line="895" selection-end-column="20" />
+          <first_editor relative-caret-position="587">
+            <caret line="895" column="20" lean-forward="false" selection-start-line="895" selection-start-column="20" selection-end-line="895" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
