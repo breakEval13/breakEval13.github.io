@@ -12,7 +12,7 @@ keywords: javascript, ajax
 
 ## 代码
 
-```javascript 1.8
+```javascript
 /**
  * @author 第一作者：张建新
  * Ajax封装类,所有的Ajax都需要通过此方法进行发送 以便进行相应的Ajax方式管理
@@ -33,15 +33,15 @@ keywords: javascript, ajax
  * @param {Object} completeFun 请求完成后回调函数 (请求成功或失败之后均调用)
  */
 function ajaxLoad(actionUrl,parems,sendMethod,successFun,errorFun,beforeSendFun,completeFun){
-	//解决ajax跨域问题
+	/**解决ajax跨域问题*/
 	$.support.cors = true;
 	$.ajax( {
-		url :actionUrl, //请求的url地址
-		dataType : "json", //返回格式为json
-		async : true,//请求是否异步，默认为异步，这也是ajax重要特性 
-		data : parems, //参数值
-		type :sendMethod, //请求方式
-		// 状态
+		url :actionUrl, /**请求的url地址*/
+		dataType : "json", /**返回格式为json*/
+		async : true,/**请求是否异步，默认为异步，这也是ajax重要特性 */
+		data : parems, /**参数值*/
+		type :sendMethod, /**请求方式*/
+		/** 状态*/
 		beforeSend :beforeSendFun,
 		success : successFun,
 		complete : completeFun,
@@ -93,8 +93,8 @@ function Toast(toastText){
 
 ## Echart echarts-utils
 
-```javascript 1.8
-/**
+```javascript
+/*
  * 参数列表
  * title 雷达图标题 字符串
  * subTitle 雷达图子标题 字符串
@@ -116,7 +116,7 @@ function initRaderMap(title,
 			trigger: 'axis'
 		},
 		legend: {
-			orient: 'horizontal',//默认为 水平布局，垂直布局为 'vertical
+			orient: 'horizontal',/**默认为 水平布局，垂直布局为 'vertical*/
 			padding: 3,
 			data: analyzeItems,
 			x: 'center',
@@ -144,10 +144,10 @@ function initRaderMap(title,
 				}
 			}
 		},
-		calculable: true, //启用拖拽重计算特性
+		calculable: true, /**启用拖拽重计算特性*/
 		xAxis: [{
 			type: 'category',
-//			boundaryGap: false,
+           /**	boundaryGap: false,*/
 			data: getXAxisData(datas)
 		}],
 		yAxis: [{
@@ -187,11 +187,11 @@ function getSeriesData(analyzeItems, datas, pictrueType) {
 		dataItem.name = analyzeItems[i];
 		dataItem.type = pictrueType;
 		dataItem.smooth = true;
-		//					dataItem.itemStyle = {normal: {areaStyle: {type: 'default'}}};
+		/**	dataItem.itemStyle = {normal: {areaStyle: {type: 'default'}}};*/
 		seriesData[i] = dataItem;
 	}
 	/*此函数不支持IE8 暂时注释*/
-	//console.log(JSON.stringify(seriesData));
+	/**console.log(JSON.stringify(seriesData));*/
 	return seriesData;
 }
 /**
@@ -207,7 +207,7 @@ function getAnalyzeItem(index, datas) {
 	return value;
 }
 function drawPiePicture(drawPictureDiv, title, analyzeItems, datas) {
-	// 基于准备好的dom，初始化echarts图表
+	/** 基于准备好的dom，初始化echarts图表*/
 	myChart = echarts.init(document.getElementById(drawPictureDiv));
 	var option = {
 		title: {
@@ -291,13 +291,13 @@ function drawPiePicture(drawPictureDiv, title, analyzeItems, datas) {
 			}
 		}]
 	};
-	// 为echarts对象加载数据 
+	/** 为echarts对象加载数据 */
 	myChart.setOption(option);
 }
 function drawColummnPicture(echartsTitle, drawPictureDiv, analyzeItems) {
-	// 基于准备好的dom，初始化echarts图表
+	/** 基于准备好的dom，初始化echarts图表*/
 	myChart = echarts.init(document.getElementById(drawPictureDiv));;
-	// 指定图表的配置项和数据
+	/** 指定图表的配置项和数据*/
 	var option = {
 		title: {
 			text: echartsTitle,
@@ -326,7 +326,7 @@ function drawColummnPicture(echartsTitle, drawPictureDiv, analyzeItems) {
 			data: []
 		}]
 	};
-	// 为echarts对象加载数据 
+	/** 为echarts对象加载数据 */
 	myChart.setOption(option);
 }
 function drawColummnMap(title,
@@ -350,10 +350,10 @@ function drawColummnMap(title,
 			data: analyzeItems,
 			x: 'center',
 			y: 'bottom',
-			itemWidth: 10,             // 图例图形宽度
-        	itemHeight: 5,  		   // 图例图形高度
+			itemWidth: 10,             /** 图例图形宽度*/
+        	itemHeight: 5,  		   /** 图例图形高度*/
         	textStyle: {
-            	fontSize:7                // 图例文字大小
+            	fontSize:7                /** 图例文字大小*/
         	}
 		},
 		toolbox: {
@@ -378,7 +378,7 @@ function drawColummnMap(title,
 				}
 			}
 		},
-		calculable: true, //启用拖拽重计算特性
+		calculable: true, /**启用拖拽重计算特性*/
 		xAxis: [{
 			type: 'category',
 			data: getXAxisDataOne(datas)
@@ -434,11 +434,11 @@ function drawColummnMap(title,
      * @param {Object} h 高度
      **/
     function alertWin(title, msg, w, h) {
-        var titleheight = "22px"; // 提示窗口标题高度 
-        var bordercolor = "#364751"; // 提示窗口的边框颜色 
-        var titlecolor = "#FFFFFF"; // 提示窗口的标题颜色 
-        var titlebgcolor = "#364751"; // 提示窗口的标题背景色 
-        var bgcolor = "#FFFFFF"; // 提示内容的背景色 
+        var titleheight = "22px"; /** 提示窗口标题高度 */
+        var bordercolor = "#364751"; /** 提示窗口的边框颜色 */
+        var titlecolor = "#FFFFFF"; /** 提示窗口的标题颜色 */
+        var titlebgcolor = "#364751"; /** 提示窗口的标题背景色 */
+        var bgcolor = "#FFFFFF"; /** 提示内容的背景色 */
     
         var iWidth = document.documentElement.clientWidth;
         var iHeight = document.documentElement.clientHeight;
@@ -450,7 +450,7 @@ function drawColummnMap(title,
         msgObj.style.cssText = "position:absolute;font:11px '宋体';top:" + (iHeight - h) / 2 + "px;left:" + (iWidth - w) / 2 + "px;width:" + w + "px;height:" + h + "px;text-align:center;border:1px solid " + bordercolor + ";background-color:" + bgcolor + ";line-height:22px;z-index:102;";
         document.body.appendChild(msgObj);
     
-        var table = document.createElement("table"); // 
+        var table = document.createElement("table"); /** */
         msgObj.appendChild(table);
         table.style.cssText = "margin:0px;border:0px;padding:0px;";
         table.cellSpacing = 0;
@@ -477,7 +477,7 @@ function drawColummnMap(title,
             document.onmousemove = function() {
                 if (moveable) {
                     var evt = getEvent();
-                    var x = moveLeft + evt.clientX - moveX; //
+                    var x = moveLeft + evt.clientX - moveX; /***/
                     var y = moveTop + evt.clientY - moveY;
                     if (x > 0 && (x + w < iWidth) && y > 0 && (y + h < iHeight)) {
                         msgObj.style.left = x + "px";
@@ -487,7 +487,7 @@ function drawColummnMap(title,
             };
             document.onmouseup = function() {
                 if (moveable) {
-                    document.onmousemove = docMouseMoveEvent; // 
+                    document.onmousemove = docMouseMoveEvent; /** */
                     document.onmouseup = docMouseUpEvent;
                     moveable = false;
                     moveX = 0;
