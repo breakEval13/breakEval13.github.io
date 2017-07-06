@@ -54,10 +54,12 @@ function ajaxLoad(actionUrl,parems,sendMethod,successFun,errorFun,beforeSendFun,
 
 ## Toast显示框
 
-```javascript 1.8
+```javascript
+
 /*
  * 是否正在Toast通知
  */
+ 
 var isToasting = false;
 /*
  * Toast通知
