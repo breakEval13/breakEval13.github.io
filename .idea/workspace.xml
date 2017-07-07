@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-07-maven-jar-qq.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-06-ajax-html-core.md" afterPath="$PROJECT_DIR$/_posts/2017-07-06-ajax-html-core.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md" afterPath="$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-06-esay-table-Tools-core.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-371">
+              <first_editor relative-caret-position="2376">
                 <caret line="99" column="5" lean-forward="false" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
                 <folding>
                   <marker date="1499343369000" expanded="true" signature="217:283" ph="/*...*/" />
@@ -74,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-04-tensorflow-play-game-demo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="256">
+              <first_editor relative-caret-position="408">
                 <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="35" />
                 <folding />
               </first_editor>
@@ -87,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-06-ajax-html-core.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
+              <first_editor relative-caret-position="2976">
                 <caret line="124" column="24" lean-forward="false" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
                 <folding>
                   <marker date="1499343604000" expanded="true" signature="209:787" ph="/** @author 第一作者：张建新 ...*/" />
@@ -244,12 +243,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-07-07-maven-jar-qq.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-07-07-maven-jar-qq.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-07-07-maven-jar-qq.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="205">
-                <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+              <first_editor relative-caret-position="1656">
+                <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
                 <folding>
                   <marker date="1499445570000" expanded="true" signature="607:919" ph="..." />
                   <marker date="1499445570000" expanded="true" signature="738:903" ph="..." />
@@ -257,6 +256,19 @@
                   <marker date="1499445570000" expanded="true" signature="1292:1437" ph="..." />
                   <marker date="1499445570000" expanded="true" signature="1310:1421" ph="..." />
                 </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-07-03-actordb-master.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1049">
+                <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -321,7 +333,6 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2017-07-01-kcp-usb3-demo.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-02-linux-ls-wc.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-03-jekyll-emoji.md" />
         <option value="$PROJECT_DIR$/images/upx.sh" />
         <option value="$PROJECT_DIR$/_posts/2016-05-21-enable-https-for-github-pages.md" />
@@ -346,6 +357,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-07-06-esay-table-Tools-core.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-06-ajax-html-core.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-07-maven-jar-qq.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md" />
       </list>
     </option>
   </component>
@@ -356,9 +368,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="41" />
+    <option name="y" value="43" />
     <option name="width" value="1680" />
-    <option name="height" value="968" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -379,6 +391,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -407,7 +420,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,14 +610,8 @@
       <workItem from="1499312971923" duration="3541000" />
       <workItem from="1499343503421" duration="474000" />
       <workItem from="1499398850837" duration="14221000" />
-      <workItem from="1499444050724" duration="1374000" />
-    </task>
-    <task id="LOCAL-00032" summary="修改文章">
-      <created>1497368299688</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1497368299688</updated>
+      <workItem from="1499444050724" duration="1740000" />
+      <workItem from="1499446151484" duration="227000" />
     </task>
     <task id="LOCAL-00033" summary="修改文章">
       <created>1497368782848</created>
@@ -943,24 +949,31 @@
       <option name="project" value="LOCAL" />
       <updated>1499149146519</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="添加CDN加速&#10;">
+      <created>1499445595633</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1499445595639</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99786000" />
+    <option name="totallyTimeSpent" value="100379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="41" width="1680" height="968" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="43" width="1680" height="965" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27727547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17721519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37193763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37094972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1387,16 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="665">
-            <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-arangodb-master.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1444,7 +1447,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-06-ajax-html-core.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
+          <first_editor relative-caret-position="2976">
             <caret line="124" column="24" lean-forward="false" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
             <folding>
               <marker date="1499343604000" expanded="true" signature="209:787" ph="/** @author 第一作者：张建新 ...*/" />
@@ -1603,7 +1606,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-06-esay-table-Tools-core.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-371">
+          <first_editor relative-caret-position="2376">
             <caret line="99" column="5" lean-forward="false" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
             <folding>
               <marker date="1499343369000" expanded="true" signature="217:283" ph="/*...*/" />
@@ -1652,7 +1655,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-04-tensorflow-play-game-demo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
+          <first_editor relative-caret-position="408">
             <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="35" />
             <folding />
           </first_editor>
@@ -1663,8 +1666,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-07-maven-jar-qq.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="205">
-            <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+          <first_editor relative-caret-position="1656">
+            <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
             <folding>
               <marker date="1499445570000" expanded="true" signature="607:919" ph="..." />
               <marker date="1499445570000" expanded="true" signature="738:903" ph="..." />
@@ -1672,6 +1675,17 @@
               <marker date="1499445570000" expanded="true" signature="1292:1437" ph="..." />
               <marker date="1499445570000" expanded="true" signature="1310:1421" ph="..." />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-03-actordb-master.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1049">
+            <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
