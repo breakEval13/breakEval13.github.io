@@ -22,11 +22,19 @@ permalink: /about/
 * GitHub：[@zmatsh](https://github.com/zmatsh)
 * 博客：[{{ site.title }}]({{ site.url }})
 * twitter [@firshMe](https://twitter.com/firshMe)
-## Skill Keywords
 
-## 服务器赞助
+## PayPal赞助
+[1$资助](https://www.paypal.me/firshme/1)
+[5$资助](https://www.paypal.me/firshme/5)
+[10$资助](https://www.paypal.me/firshme/10)
+[100$资助](https://www.paypal.me/firshme/100)
+
+## 微信赞助
 
 ![](/images/weixin/mm_facetoface_collect_qrcode_1498187590156.png)
+
+## Skill Keywords
+
 
 #### Software Engineer Keywords
 <div class="btn-inline">
