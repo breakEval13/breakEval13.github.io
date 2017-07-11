@@ -4,7 +4,6 @@
     <list default="true" id="476d42d8-694c-4069-a597-b5d5ae6695d6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar-popular-repo.html" afterPath="$PROJECT_DIR$/_includes/sidebar-popular-repo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar-post-nav.html" afterPath="$PROJECT_DIR$/_includes/sidebar-post-nav.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +53,8 @@
       <file leaf-file-name="sidebar-popular-repo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/sidebar-popular-repo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+            <state relative-caret-position="408">
+              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <element signature="n#a#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
@@ -468,14 +467,7 @@
       <workItem from="1499662708380" duration="483000" />
       <workItem from="1499695860211" duration="886000" />
       <workItem from="1499764221262" duration="805000" />
-      <workItem from="1499769048693" duration="4021000" />
-    </task>
-    <task id="LOCAL-00044" summary="add pages">
-      <created>1497726586203</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1497726586203</updated>
+      <workItem from="1499769048693" duration="4208000" />
     </task>
     <task id="LOCAL-00045" summary="add pages">
       <created>1497727475729</created>
@@ -813,11 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499781767680</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="google ads">
+      <created>1499782119040</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1499782119040</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109216000" />
+    <option name="totallyTimeSpent" value="109403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="38" width="1680" height="974" extended-state="0" />
@@ -1280,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/sidebar-popular-repo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="408">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <element signature="n#a#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#ins#0;n#!!top" expanded="true" />
