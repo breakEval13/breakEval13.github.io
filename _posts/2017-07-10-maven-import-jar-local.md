@@ -23,3 +23,15 @@ keywords: Idea, java，Mavne
 * 上图已经标注出两个需要修改的位置。
 
 * `maven clean package` 会加载到这个jar包。用普通的引入方式`Maven`打包会失败。
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-format="fluid"
+     data-ad-layout="in-article"
+     data-ad-client="ca-pub-3969253077255521"
+     data-ad-slot="2866054894"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
