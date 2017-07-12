@@ -47,14 +47,3 @@ keywords: Idea, java
 `markdown语法支持`
 * Maven Helper
 `maven 依赖包帮助插件`
-
-<script type="text/javascript">
-    google_ad_client = "ca-pub-3969253077255521";
-    google_ad_slot = "3225981697";
-    google_ad_width = 728;
-    google_ad_height = 90;
-</script>
-<!-- demo-b -->
-<script type="text/javascript"
-src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
