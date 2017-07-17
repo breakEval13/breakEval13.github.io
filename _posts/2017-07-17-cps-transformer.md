@@ -21,6 +21,7 @@ keywords: lisp, Script
 
 
 * CPS
+
 ```scheme
 ;; A simple CPS transformer which does proper tail-call and does not
 ;; duplicate contexts for if-expressions.
@@ -79,30 +80,6 @@ keywords: lisp, Script
 * pmatch
 
 ```scheme
-;;; Code written by Oleg Kiselyov
-;; (http://pobox.com/~oleg/ftp/)
-;;;
-;;; Taken from leanTAP.scm
-;;; http://kanren.cvs.sourceforge.net/kanren/kanren/mini/leanTAP.scm?view=log
-
-; A simple linear pattern matcher
-; It is efficient (generates code at macro-expansion time) and simple:
-; it should work on any R5RS Scheme system.
-
-; (pmatch exp <clause> ...[<else-clause>])
-; <clause> ::= (<pattern> <guard> exp ...)
-; <else-clause> ::= (else exp ...)
-; <guard> ::= boolean exp | ()
-; <pattern> :: =
-;        ,var  -- matches always and binds the var
-;                 pattern must be linear! No check is done
-;         _    -- matches always
-;        'exp  -- comparison with exp (using equal?)
-;        exp   -- comparison with exp (using equal?)
-;        (<pattern1> <pattern2> ...) -- matches the list of patterns
-;        (<pattern1> . <pattern2>)  -- ditto
-;        ()    -- matches the empty list
-
 (define-syntax pmatch
   (syntax-rules (else guard)
     ((_ (rator rand ...) cs ...)
