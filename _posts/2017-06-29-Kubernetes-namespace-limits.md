@@ -68,4 +68,62 @@ spec:
 
 ```
 
+## 3.映射方案Ceph RBD
+
+```yaml
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: demo-app-server
+  namespace: [namespace]
+spec:
+  replicas: 1
+  selector:
+    app: demo-app-server
+  template:
+    metadata:
+      labels:
+        app: demo-app-server
+    spec:
+      containers:
+        - name: demo-app-server-container
+          image: image.firsh.io/demo-base/appserver:latest
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 8080
+          env:
+            - name: APP_HOME_CONF_DIR
+              value: /home/demo-app/conf
+          command: ["java","-jar","/home/demo-app/demoapp.jar"]
+          volumeMounts:
+                - name: config-volume
+                  mountPath: /home/demo-app/conf
+                - name: app-log
+                  mountPath: /var/log/development
+      volumes:
+        - name: config-volume
+          configMap:
+            name: demo-app-server
+        - name: app-log
+          hostPath:
+            path: /kube/demo-apiserver/logs
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+ name: demo-app-service
+ namespace: demo
+spec:
+   #type: ClusterIP
+   ports:
+   - name: demo-app-out-in
+     port: 1000
+     targetPort: 8080
+   externalIPs:
+   - [192.168.1.100]
+   selector:
+     app: demo-app-server
+```
+
 > 感谢企业服务部牛总提供的解决方案
