@@ -19,7 +19,6 @@ RocketMQ消息队列整合Flink的解决方案。
 
 ```java
 package com.flink.source;
-
 import com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer;
 import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
 import com.alibaba.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
@@ -28,6 +27,7 @@ import com.alibaba.rocketmq.common.consumer.ConsumeFromWhere;
 import com.alibaba.rocketmq.common.message.Message;
 import com.alibaba.rocketmq.common.message.MessageExt;
 import com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel;
+import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.functions.source.RichSourceFunction;
 
 import java.nio.charset.Charset;
@@ -36,30 +36,14 @@ import java.util.UUID;
 import java.util.concurrent.*;
 
 /**
- * Created by zhangjianxin on 2017/7/21.
+ * Created by zhangjianxin on 2017/7/20.
  */
 public class RocketMQSource extends RichSourceFunction<String> implements MessageListenerConcurrently  {
     public static DefaultMQPushConsumer consumer;
     public static LinkedBlockingQueue<String> queue;
-    public static ConcurrentLinkedQueue<String> cqueue;
-    public RocketMQSource(String ConsumerGroupName,String NamesrvAddr,int QueueSize,int ConsumeMessageMAXSize) throws Exception {
-        queue = new LinkedBlockingQueue<>(QueueSize);
-        consumer = new DefaultMQPushConsumer(ConsumerGroupName);
-        consumer.setNamesrvAddr(NamesrvAddr);
-        consumer.setInstanceName(UUID.randomUUID().toString());
-        consumer.setConsumeMessageBatchMaxSize(ConsumeMessageMAXSize);//消息数量每次读取的消息数量
-        consumer.setMessageModel(MessageModel.CLUSTERING);
-        consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
-        consumer.registerMessageListener(this);
-        consumer.subscribe("user", "*");
-        consumer.subscribe("org", "*");
-        consumer.start();
-        System.out.println("RocketMQ Started.");
-    }
+
     @Override
     public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
-        System.out.println("list Size:" + list.size());
-        System.out.println(Thread.currentThread().getName() + " Receive New Messages: " + list);
         long offset = list.get(0).getQueueOffset();
         String maxOffset = list.get(0).getProperty("MAX_OFFSET");
         long diff = Long.parseLong(maxOffset) - offset;
@@ -92,22 +76,49 @@ public class RocketMQSource extends RichSourceFunction<String> implements Messag
         }
         return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
     }
+    @Override
+    public void open(Configuration parameters) throws Exception {
+        String consumerGroupName = "flink-crate";
+        String namesrvAddr = "127.0.0.1:9876";
+        int queueSize=1000;
+        int consumeMessageMAXSize = 1;
+        queue = new LinkedBlockingQueue<>(queueSize);
+        consumer = new DefaultMQPushConsumer(consumerGroupName);
+        consumer.setNamesrvAddr(namesrvAddr);
+        consumer.setInstanceName(UUID.randomUUID().toString());
+        consumer.setConsumeMessageBatchMaxSize(consumeMessageMAXSize);//消息数量每次读取的消息数量
+        consumer.setMessageModel(MessageModel.CLUSTERING);
+        consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
+        consumer.registerMessageListener(this);
+        consumer.subscribe("user", "*");
+        consumer.subscribe("org", "*");
+        System.out.println("启动线程");
+        consumer.start();
+        System.out.println("RocketMQ Started.");
+        super.open(parameters);
+    }
 
     @Override
     public void run(SourceContext sourceContext) throws Exception {
-        String obj = null;
-        while (!((obj = queue.take()).equals("quit"))) {
-                Thread.sleep(10L);
+        System.out.println("run");
+        String obj = "";
+        while (true) {
+            System.out.println("------------------queue = "+queue+"------------------------");
+            if(queue!=null && !queue.isEmpty()){
+                System.out.println("------------------size = "+queue.size()+"------------------------");
+                obj = queue.take();
                 sourceContext.collect(obj);
+            }else {
+                System.out.println("休眠1s");
+                Thread.sleep(1000);
             }
-
         }
+    }
     @Override
     public void cancel() {
 
     }
 }
-
 
 ```
 
