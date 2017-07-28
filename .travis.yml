@@ -8,13 +8,13 @@ script:
   - bundle install
   - bundle exec jekyll build
 after_success:
-  - git clone https://github.com/zmatsh/dist.git
+  - git clone https://github.com/breakEval13/dist.git
   - cd dist && rm -rf * && cp -r ../_site/* .
-  - git config user.name "zhangjianxin1"
+  - git config user.name "breakEval13"
   - git config user.email "net@socializeq.com"
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
-  - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/zmatsh/dist.git master:master
+  - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/breakEval13/dist.git master:master
   - ssh root@cgroup.ltd docker restart 7a087c713af1
 branches:
   only:
