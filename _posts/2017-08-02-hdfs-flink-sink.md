@@ -111,7 +111,7 @@ public class HDFSManager {
         configuration.set("dfs.namenode.shared.edits.dir", "qjournal://10.11.0.12:8485;10.11.0.13:8485;10.11.0.14:8485/ns");
         configuration.set("hadoop.tmp.dir", "/home/admin/data/hadoop/tmp");
         configuration.set("fs.defaultFS", "hdfs://ns");
-        configuration.set("dfs.journalnode.edits.dir", "/home/hadmin/data/hadoop/journal");
+        configuration.set("dfs.journalnode.edits.dir", "/home/admin/data/hadoop/journal");
         configuration.set("dfs.client.failover.proxy.provider.ns", "org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider");
         configuration.set("ha.zookeeper.quorum", "10.11.0.12:2181,10.11.0.13:2181,10.11.0.14:2181");
         configuration.set("mapreduce.input.fileinputformat.split.minsize", "10");
