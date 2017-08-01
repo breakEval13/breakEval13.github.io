@@ -4,7 +4,7 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: breakEval13 :)
+title: 山脚下的胖子.
 subtitle: "What is bitter, what is difficult, what is high, and how far away."
 description: "Flink，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx,Spark,docker。"
 keywords: breakeval13,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx Spark,docker,Docker,Dockerfile,zmatsh
@@ -17,8 +17,8 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: zmatsh
-organization: todCloud.Com, Inc.
+author: breakeval13
+organization: Tod, Inc.
 organization_url: https://timeondata.com
 location: Beijing, China
 email: zhang-rd-fe@s139.org
@@ -29,27 +29,27 @@ email: zhang-rd-fe@s139.org
 navs:
   -
     href: /
-    label: 首页
+    label: Index
 
   -
     href: /categories/
-    label: 分类
+    label: categories
   
   -
     href: /open-source/
-    label: 开源
+    label: open-source
     
   -
     href: /wiki/
-    label: 维基
+    label: wiki
 
   -
     href: /links/
-    label: 链接
+    label: links
 
   -
     href: /about/
-    label: 关于
+    label: about
 
 # ---------------- #
 #       RSS        #
