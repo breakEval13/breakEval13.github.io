@@ -43,7 +43,7 @@ keywords: flink,rocektmq
             DataStream<String> sourceStream = env.addSource(rocketMQSource);
 ```
 # Source [重点]
-   * MongoDB Service 处理工具
+   * 自定义Source的一部分代码
 
 ```java
  @Override
