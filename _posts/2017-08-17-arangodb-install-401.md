@@ -134,14 +134,10 @@ file = /var/log/arangodb3/arangod.log
 [rocksdb]
 # encryption-keyfile=/your-encryption-file
 ```
-# 7.添加开机启动项
-```bash
-# 让Redis在服务器重启后自动启动，需要将启动命令写入开机启动项
-echo "/usr/local/bin/redis-server /etc/redis.conf" >>/etc/rc.local
-```
+
 **以上完成安装**
 
-# 8.访问测试
+# 7.访问测试
 
 ```bash
 arangosh
@@ -150,7 +146,7 @@ arangosh
 ![](https://zmatsh.b0.upaiyun.com/blog/20E4E40601E232AFEB557A2260F5BA20.png)
 
 
-# 9.解决没有权限问题
+# 8.解决没有权限问题
  ```bash
  # 停止 `systemctl stop arangodb3`
  # 不启用授权启动arangodb
