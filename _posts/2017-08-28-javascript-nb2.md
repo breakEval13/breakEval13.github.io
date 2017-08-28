@@ -17,11 +17,12 @@ author：zhangjianxin
 
 # 这个代码平淡无奇，就是从一个数组中找到一个数，O(n)的算法，找不到就返回 null。
 
-  下面是正常的 old-school 的方式。不用多说。
+  下面是正常的 old-school 的方式。不用多说
+
+
 
 ```javascript
-
-/**正常的版本*/
+//正常的版本
 function find (x, y) {
   for ( let i = 0; i < x.length; i++ ) {
     if ( x[i] == y ) return i;
@@ -36,9 +37,10 @@ console.log(find(arr, 8))
 ```
 
 * 结果到了函数式成了下面这个样子（好像上面的那些代码在下面若影若现，不过又有点不太一样，为了消掉if语言，让其看上去更像一个表达式，动用了 ? 号表达式）：
-```javascript
 
-/**函数式的版本**/
+
+```javascript
+//函数式的版本
 const find = ( f => f(f) ) ( f =>
   (next => (x, y, i = 0) =>
     ( i >= x.length) ?  null :
@@ -57,37 +59,37 @@ console.log(find(arr, 8))
  > Javascript的箭头函数
     * 首先先简单说明一下，ECMAScript2015 引入的箭头表达式。箭头函数其实都是匿名函数，其基本语法如下：
 
-    ```javascript
-        param1, param2, …, paramN) => { statements }
-        (param1, param2, …, paramN) => expression
-             // 等于 :  => { return expression; }
+```javascript
+    param1, param2, …, paramN) => { statements }
+    (param1, param2, …, paramN) => expression
+         // 等于 :  => { return expression; }
 
-        // 只有一个参数时,括号才可以不加:
-        (singleParam) => { statements }
-        singleParam => { statements }
+    // 只有一个参数时,括号才可以不加:
+    (singleParam) => { statements }
+    singleParam => { statements }
 
-        //如果没有参数,就一定要加括号:
-        () => { statements }
+    //如果没有参数,就一定要加括号:
+    () => { statements }
 
-    ```
+```
 
  > 下面是一些示例：
 
- ```javascript
-    var simple = a => a > 15 ? 15 : a;
-    simple(16); // 15
-    simple(10); // 10
+```javascript
+var simple = a => a > 15 ? 15 : a;
+simple(16); // 15
+simple(10); // 10
 
-    let max = (a, b) => a > b ? a : b;
+let max = (a, b) => a > b ? a : b;
 
-    // Easy array filtering, mapping, ...
+// Easy array filtering, mapping, ...
 
-    var arr = [5, 6, 13, 0, 1, 18, 23];
-    var sum = arr.reduce((a, b) => a + b);  // 66
-    var even = arr.filter(v => v % 2 == 0); // [6, 0, 18]
-    var double = arr.map(v => v * 2);       // [10, 12, 26, 0, 2, 36, 46]
+var arr = [5, 6, 13, 0, 1, 18, 23];
+var sum = arr.reduce((a, b) => a + b);  // 66
+var even = arr.filter(v => v % 2 == 0); // [6, 0, 18]
+var double = arr.map(v => v * 2);       // [10, 12, 26, 0, 2, 36, 46]
 
- ```
+```
 
 
 > 看上去不复杂吧。不过，上面前两个 simple 和 max 的例子都把这箭头函数赋值给了一个变量，
