@@ -93,3 +93,29 @@ popd >/dev/null
 rm -r ${TMP_DIR}
 ```
 
+
+
+## 貌似更好
+
+ * This patch fixes a bug which would prevent the online compaction from being enabled. Hopefully now it's possible to turn it on again. I installed this version and then enabled experimental compaction by running the following script:
+
+```bash
+#!/bin/bash
+
+cd ~/Library/Containers/com.docker.docker/Data/database/
+git checkout master
+git reset --hard
+mkdir -p com.docker.driver.amd64-linux/disk
+echo 262144 > com.docker.driver.amd64-linux/disk/compact-after
+echo 262144 > com.docker.driver.amd64-linux/disk/keep-erased
+echo -n true > com.docker.driver.amd64-linux/disk/trim
+#echo -n 'tcp:9090' > com.docker.driver.amd64-linux/disk/stats
+git add com.docker.driver.amd64-linux/disk/compact-after
+git add com.docker.driver.amd64-linux/disk/keep-erased
+git add com.docker.driver.amd64-linux/disk/trim
+#git add com.docker.driver.amd64-linux/disk/stats
+git commit -s -m 'Enable on-line compaction'
+```
+* I then rebooted the app. I created a large temporary file in a container, deleted it, and around 15 minutes later an fstrim /var was triggered from cron and the file became smaller again. (It's also possible to trigger fstrim immediately with a command like docker run --rm --net=host --pid=host --privileged -it justincormack/nsenter1 /sbin/fstrim /var)
+
+* In 17.07 (the upcoming edge release) I'm hoping to switch online compaction on by default. In 17.08 I'm hoping to automatically trigger fstrim when docker images are removed, instead of waiting for a cron job.
