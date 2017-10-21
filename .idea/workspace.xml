@@ -22,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="354">
-                <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+              <first_editor relative-caret-position="330">
+                <caret line="219" column="35" lean-forward="false" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -426,7 +426,7 @@
       <workItem from="1504696611874" duration="110000" />
       <workItem from="1508327213586" duration="1435000" />
       <workItem from="1508598236845" duration="9657000" />
-      <workItem from="1508615230340" duration="33000" />
+      <workItem from="1508615230340" duration="65000" />
     </task>
     <task id="LOCAL-00070" summary="修改配色">
       <created>1498732298095</created>
@@ -775,7 +775,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162322000" />
+    <option name="totallyTimeSpent" value="162354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="962" extended-state="0" />
@@ -1429,8 +1429,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="354">
-            <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+          <first_editor relative-caret-position="330">
+            <caret line="219" column="35" lean-forward="false" selection-start-line="219" selection-start-column="35" selection-end-line="219" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor>

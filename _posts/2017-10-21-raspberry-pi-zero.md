@@ -217,7 +217,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
 # 3 成品图：
 
- ![](https://zmatsh.b0.upaiyun.com//images/success-png.jpg)
+ ![](https://zmatsh.b0.upaiyun.com/images/success-png.jpg)
 
 * 以上操作经过验证可以直接拿去。
 * auther `breakEval13`
