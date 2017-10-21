@@ -185,7 +185,11 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
     .／install.sh
     ```
 
+ * 等待 下载大约300m数据，编译需要20分钟。
+
+
  * 提示
+
     ```text
        当然最重要的一点是安装后完毕wifi会修改为P4wnP1
        密码是MaMe82-P4wnP1
@@ -200,15 +204,15 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
      pi@MAME82-P4WNP1:~ $ nano P4wnP1/setup.cfg
      ```
 
-     ![](https://zmatsh.b0.upaiyun.com/images/images/hack-setting.png)
+     ![](https://zmatsh.b0.upaiyun.com/images/hack-setting.png)
 
      * 目前有的功能列表
 
-     ![](https://zmatsh.b0.upaiyun.com/images/images/windows-python-script-hack.png)
+     ![](https://zmatsh.b0.upaiyun.com/images/windows-python-script-hack.png)
 
      * 测试shell,可以直接获取权限，图片：
 
-     ![](https://zmatsh.b0.upaiyun.com/images/images/success-bad-usb-hack.png)
+     ![](https://zmatsh.b0.upaiyun.com/images/success-bad-usb-hack.png)
 
 
 # 3 成品图：
