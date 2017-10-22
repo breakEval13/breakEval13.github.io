@@ -122,6 +122,8 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
     ![](https://zmatsh.b0.upaiyun.com/images/usb-otg.png)
 
+ * 看到如上图：`ssh pi@raspberrypi.local` 输入密码链接即可。
+
  * 配置网络地址，wifi网卡
     ```bash
     pi@raspberrypi:~ $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
@@ -197,7 +199,11 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
        建议修改初始密码！小心被黑(bao)吃(ju)黑(hua)！！！
     ```
 
- * 蓝牙ssh连接的地址是172.26.0.1
+ * 将USB设备插到你要渗透的机器上，你会搜索到一个Wifi热点`P4wnP1`,密码`MaMe82-P4wnP1`
+
+ * 链接后进行SSH链接
+    `ssh pi@172.24.0.1`即可。注：蓝牙ssh连接的地址是172.26.0.1
+
 
  * 配置文件地址如下：
      ```bash
