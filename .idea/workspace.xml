@@ -22,8 +22,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="328">
-                <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+              <first_editor relative-caret-position="400">
+                <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -427,7 +427,8 @@
       <workItem from="1508327213586" duration="1435000" />
       <workItem from="1508598236845" duration="9657000" />
       <workItem from="1508615230340" duration="80000" />
-      <workItem from="1508658886578" duration="203000" />
+      <workItem from="1508658886578" duration="563000" />
+      <workItem from="1508665467808" duration="42000" />
     </task>
     <task id="LOCAL-00070" summary="修改配色">
       <created>1498732298095</created>
@@ -776,13 +777,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162572000" />
+    <option name="totallyTimeSpent" value="162974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2278481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22724533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1399,8 +1400,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="328">
-            <caret line="206" column="0" lean-forward="true" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <first_editor relative-caret-position="400">
+            <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>

@@ -189,6 +189,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
  * 等待 下载大约300m数据，编译需要20分钟。
 
+   ![](https://zmatsh.b0.upaiyun.com/images/install-y-success.jpg)
 
  * 提示
 
