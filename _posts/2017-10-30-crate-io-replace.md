@@ -13,6 +13,8 @@ Crate DB重启数据恢复Shards较慢解决方案“采用ES restFull API”
 date：2017-10-31
 author：zhangjianxin
 
+# Crate DB重启数据恢复Shards较慢解决方案
+
 [*] 成功图，
 
 
