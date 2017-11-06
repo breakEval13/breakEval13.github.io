@@ -32,12 +32,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-31-Java-date-replace.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2017-10-21-raspberry-pi-zero.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="256">
+                <caret line="191" column="37" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="191" selection-end-column="37" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-31-Java-date-replace.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-31-Java-date-replace.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="325">
-                <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <first_editor relative-caret-position="304">
+                <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-10-11-python-speed-network.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-10-11-python-speed-network.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-3576">
+                <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-11-06-nginx-up.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-11-06-nginx-up.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="349">
+                <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -124,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2017-07-06-HandtableTools-core.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-06-esay-table-Tools-core.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-06-ajax-html-core.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-07-maven-jar-qq.md" />
@@ -175,6 +219,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-05-30-CICD成功部署.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-30-crate-io-replace.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-31-Java-date-replace.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-11-06-nginx-up.md" />
       </list>
     </option>
   </component>
@@ -206,8 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,6 +293,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,15 +312,15 @@
     <key name="OPEN_URL_DIALOG">
       <recent name="https://github.com/zmatsh/dist.git" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/images/posts/arangodb" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images/posts/java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -485,7 +530,8 @@
       <workItem from="1508665467808" duration="614000" />
       <workItem from="1509372182442" duration="1047000" />
       <workItem from="1509416070125" duration="186000" />
-      <workItem from="1509728113426" duration="571000" />
+      <workItem from="1509728113426" duration="1156000" />
+      <workItem from="1509949339835" duration="432000" />
     </task>
     <task id="LOCAL-00070" summary="修改配色">
       <created>1498732298095</created>
@@ -834,13 +880,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165350000" />
+    <option name="totallyTimeSpent" value="166367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="962" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22543702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22483423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -916,18 +962,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-07-17-Positive-Script.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-07-09-idea-plugin-star.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1356,18 +1390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-11-python-speed-network.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-18-re-port-linux-mail.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1385,18 +1407,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-9270">
             <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="49" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="280">
-            <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           </first_editor>
           <second_editor>
             <js_state />
@@ -1450,6 +1460,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-31-Java-date-replace.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-11-python-speed-network.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-3576">
+            <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-30-crate-io-replace.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -1463,11 +1499,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-31-Java-date-replace.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-21-raspberry-pi-zero.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="256">
+            <caret line="191" column="37" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="191" selection-end-column="37" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-11-06-nginx-up.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="325">
-            <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <first_editor relative-caret-position="349">
+            <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
