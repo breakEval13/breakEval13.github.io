@@ -5,3 +5,5 @@ _site/
 *~
 .DS_Store
 Gemfile.lock
+
+id_rsa.enc
