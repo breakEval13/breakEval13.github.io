@@ -11,6 +11,7 @@ keywords: mongo, sum
  * find aggregate
 
 ```bash
+
 db.cabinet.aggregate(
    [
      {

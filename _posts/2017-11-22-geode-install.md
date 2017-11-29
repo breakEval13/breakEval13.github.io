@@ -58,6 +58,8 @@ cluster.properties  cluster.xml
 
 * 其他节点 connect --locator=10.11.0.224[10334]
 
+```text
+
 create region --name=example-region --type=REPLICATE_PERSISTENT
 
 start server --name=server1 --server-port=40411
@@ -68,7 +70,7 @@ start server --name=server5 --server-port=40415
 
 query --query=" SELECT  * FROM /example-region h WHERE h.hoursPerWeek < 40 "
 
-```text
+
 
 locator 定位器，相当于master-slave中的master，或者zookeeper，主要用于管理集群，和链接不同的server。
 
