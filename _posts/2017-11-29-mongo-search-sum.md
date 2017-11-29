@@ -3,7 +3,7 @@ layout: post
 title: Mongodb Aggregate Sum。
 categories: mongo
 description: Mongodb sum 查询聚合
-keywords: mongo, sum
+keywords: mongo, sum
 ---
 
 # Mongodb search aggregate SUM

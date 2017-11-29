@@ -3,7 +3,7 @@ layout: post
 title: 为流处理加上一层高新能缓存。
 categories: Apache
 description: 搭建分布式缓存集群。
-keywords: Apache geode, geode
+keywords: Apache geode, geode
 ---
 
 # Apache geode install 
