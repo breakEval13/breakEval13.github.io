@@ -124,3 +124,58 @@ nohup ./bin/start-tc-server.sh  -f conf/tc-config.xml  -n s2 &
 * 这样两台基本的Ehcache 服务集群就搭建成功了。
 
 * 文章写的比较着急，不忙了在继续整理，望理解。
+
+* 测试代码
+
+
+```java
+
+
+package todcloud.utils.ehcache;
+
+/**
+ * Created by zhangjianxin on 2017/12/4.
+ * Github Breakeval13
+ * blog firsh.me
+ */
+import java.net.URI;
+
+import org.ehcache.Cache;
+import org.ehcache.CacheManager;
+import org.slf4j.Logger;
+
+import static java.net.URI.create;
+import static org.ehcache.clustered.client.config.builders.ClusteredResourcePoolBuilder.clusteredDedicated;
+import static org.ehcache.clustered.client.config.builders.ClusteringServiceConfigurationBuilder.cluster;
+import static org.ehcache.config.builders.CacheConfigurationBuilder.newCacheConfigurationBuilder;
+import static org.ehcache.config.builders.CacheManagerBuilder.newCacheManagerBuilder;
+import static org.ehcache.config.builders.ResourcePoolsBuilder.heap;
+import static org.ehcache.config.units.MemoryUnit.MB;
+import static org.slf4j.LoggerFactory.getLogger;
+
+public class ClusteredProgrammatic {
+    private static final Logger LOGGER = getLogger(ClusteredProgrammatic.class);
+
+    public static void main(String[] args) {
+        LOGGER.info("Creating clustered cache manager");
+        final URI uri = create("terracotta://10.11.0.224:9410/s1");
+        try (CacheManager cacheManager = newCacheManagerBuilder()
+                .with(cluster(uri).autoCreate().defaultServerResource("main"))
+                .withCache("basicCache",
+                        newCacheConfigurationBuilder(Long.class, String.class,
+                                heap(100).offheap(1, MB).with(clusteredDedicated(512, MB))))
+                .build(true)) {
+            Cache<Long, String> basicCache = cacheManager.getCache("basicCache", Long.class, String.class);
+
+            LOGGER.info("Putting to cache");
+//            basicCache.put(100L, "da one!");
+//            basicCache.put(1L, "da one1L!");
+            System.out.println(basicCache.get(1L));
+            LOGGER.info("Closing cache manager");
+        }
+
+        LOGGER.info("Exiting");
+    }
+}
+
+```
