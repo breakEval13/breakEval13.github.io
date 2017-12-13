@@ -94,4 +94,13 @@ OQL 类SQL的脚本，用来查数
 
 以上命令的执行默认是以集群为范围的，如果要单机执行，需要修改apache-geode\config\gemfire.properties文件中的属性：enable-cluster-configuration=true，改为false。
 
+
+
+gfsh show missing-disk-stores 查询 disk 
+
+
+start server --name=server13 --locators=10.11.0.224[10334]
+
+start server --name=server20 --server-port=40431  --locators=10.11.0.224[10334]
+
 ```
