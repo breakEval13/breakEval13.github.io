@@ -272,4 +272,6 @@ nohup sh  mqnamesrv >/var/log/ns.log 2>&1 &
 
 ## 禁止转载，盗版必究。
 
+[![](https://badge.juejin.im/entry/5a31ea02f265da4319564878/likes.svg?style=plastic)](https://juejin.im/post/5a31e9c5f265da431d3cb134)
+
 
