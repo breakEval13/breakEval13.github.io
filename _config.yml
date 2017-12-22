@@ -5,9 +5,9 @@ baseurl:
 url: http://firsh.me
 date_format: "ordinal"
 title: 山脚下的胖子.
-subtitle: "What is bitter, what is difficult, what is high, and how far away."
+subtitle: "这一生如履赴冰 何时能走到对岸."
 description: "Flink，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx,Spark,docker。"
-keywords: breakeval13,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx Spark,docker,Docker,Dockerfile,zmatsh
+keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,docker,Docker,Dockerfile,zmatsh
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
