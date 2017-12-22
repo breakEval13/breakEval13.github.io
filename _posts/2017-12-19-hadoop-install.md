@@ -149,10 +149,6 @@ hdfs haadmin -transitionToActive nn1 --forcemanual
   ```bash
         hdfs zkfc -formatZK
   ```
-  
-
-
-
 
  # 插曲 scp 发现存储不够了
 
@@ -170,3 +166,31 @@ hdfs haadmin -transitionToActive nn1 --forcemanual
   xfs_growfs /dev/mapper/VG00-lvroot
 
  ```
+
+
+# 读取文件里面的文件路径参数【转译】
+
+```bash
+
+HBASE_TMP_DIR=$(cat $HBASE_PACKAGE_PATH/config | grep HBASE_TMP_DIR | awk -F "=" '{print$2}')
+
+HBASE_TMP_DIR_STR=$(echo $HBASE_TMP_DIR | sed 's#\/#\\\/#g')
+
+sed -i "s/HBASE_TMP_DIR/$HBASE_TMP_DIR_STR/" $HBASE_HOME/conf/hbase-site.xml
+
+```
+
+
+# 读取节点配置合理配置主从节点
+
+```bash
+OLD_IFS="$IFS"
+IFS=","
+arr=($HBASE_REGION)
+IFS="$OLD_IFS"
+for s in ${arr[@]}
+do
+    echo "$s" >>$HBASE_HOME/conf/regionservers
+done
+
+```
