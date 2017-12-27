@@ -9,7 +9,7 @@ keywords: vgs 扩容vgs
 
 #动态扩容 VG
 
-##1.1 查看硬盘信息
+* 1.1 查看硬盘信息
 
 ```bash
 [root@pgb lvm]# fdisk -l
@@ -48,7 +48,7 @@ Units = cylinders of 1008 * 512 = 516096 bytes
   
 ```        
         
-##1.2 查看 VG 信息
+* 1.2 查看 VG 信息
 
 ```bash
 
@@ -77,7 +77,7 @@ Units = cylinders of 1008 * 512 = 516096 bytes
 ```
   
   
-##1.3 格式化文件系统
+* 1.3 格式化文件系统
 
 ```bash
 [root@pgb lvm]# mkfs -t ext3 -c /dev/hdb2
@@ -106,7 +106,7 @@ This filesystem will be automatically checked every 28 mounts or
 ```
          
 
-##1.4 创建PV    
+* 1.4 创建PV    
 
 ```bash
 [root@pgb lvm]# pvcreate /dev/hdb2
@@ -115,7 +115,7 @@ This filesystem will be automatically checked every 28 mounts or
 
   
   
-##1.5 在线扩容 VG
+* 1.5 在线扩容 VG
 
 ```bash
 [root@pgb lvm]# vgs
@@ -131,7 +131,7 @@ This filesystem will be automatically checked every 28 mounts or
 
 ```
 
-##1.6 再次查看 VG，查看是否扩容
+* 1.6 再次查看 VG，查看是否扩容
 
 ```bash
 
@@ -165,7 +165,7 @@ This filesystem will be automatically checked every 28 mounts or
 
       * 目标给已在线上使用的LV 扩容，在以下例子中，给目录 /database/pgdata1 扩容 512 M。
 
-##2.1 查看目录使用情况
+* 2.1 查看目录使用情况
 
 ```bash
 [root@pgb lvm]# df -hv
@@ -178,7 +178,7 @@ none                  217M  104K  217M   1% /var/lib/xenstored
                      1008M   34M  924M   4% /database/pgdata1  
 ```
  
-##2.2 查看所属 VG 信息
+* 2.2 查看所属 VG 信息
 
 ```bash
 [root@pgb lvm]# vgdisplay
@@ -207,8 +207,7 @@ none                  217M  104K  217M   1% /var/lib/xenstored
 ```
   
   
- 
-##2.3 增加 LV 大小 
+* 2.3 增加 LV 大小 
 
 ```bash
 [root@pgb lvm]#  lvextend  -L +512M /dev/mapper/vg01_pgdata-lv_pgdata1 
@@ -231,7 +230,7 @@ none                  217M  104K  217M   1% /var/lib/xenstored
 ```
          
          
-##2.4 resize2fs
+ * 2.4 resize2fs
 
 ```bash
 [root@pgb lvm]# resize2fs -f /dev/mapper/vg01_pgdata-lv_pgdata1
@@ -242,7 +241,7 @@ The filesystem on /dev/mapper/vg01_pgdata-lv_pgdata1 is now 524288 blocks long.
 ```
 
 
-##2.5 再次查看
+* 2.5 再次查看
 
 ```bash
 [root@pgb lvm]# df -hv
