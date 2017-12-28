@@ -48,151 +48,152 @@ minikube start --docker-env HTTP_PROXY=http://192.168.155.2:8118 \
 
 # 正题
 
-    * 创建一个空的目录一会要用到
-    * 安装 serverless  `npm install serverless` 
-    * 安装 serverless-kubeless  `npm install serverless-kubeless`
-    * 创建一个serverless function `serverless create --template kubeless-python`
-    * 看看serverless 支持多少模版
+* 创建一个空的目录一会要用到
+* 安装 serverless  `npm install serverless` 
+* 安装 serverless-kubeless  `npm install serverless-kubeless`
+* 创建一个serverless function `serverless create --template kubeless-python`
+* 看看serverless 支持多少模版
 
-    ![](http://zmatsh.b0.upaiyun.com/demos/6b52ee20-569a-4450-b3b9-b495c9e3fd0b.png)
+![](http://zmatsh.b0.upaiyun.com/demos/6b52ee20-569a-4450-b3b9-b495c9e3fd0b.png)
 
-    * 执行创建命令
+* 执行创建命令
 
-    ```bash
-        serverless create --template kubeless-python
-    ```
+```bash
+    serverless create --template kubeless-python
+```
 
-    * 结果 
+* 结果 
 
-    ```bash
-    ➜  demo2 serverless create --template kubeless-python
-        Serverless: Generating boilerplate...
-        _______                             __
-        |   _   .-----.----.--.--.-----.----|  .-----.-----.-----.
-        |   |___|  -__|   _|  |  |  -__|   _|  |  -__|__ --|__ --|
-        |____   |_____|__|  \___/|_____|__| |__|_____|_____|_____|
-        |   |   |             The Serverless Application Framework
-        |       |                           serverless.com, v1.25.0
-        -------'
+```bash
+➜  demo2 serverless create --template kubeless-python
+    Serverless: Generating boilerplate...
+    _______                             __
+    |   _   .-----.----.--.--.-----.----|  .-----.-----.-----.
+    |   |___|  -__|   _|  |  |  -__|   _|  |  -__|__ --|__ --|
+    |____   |_____|__|  \___/|_____|__| |__|_____|_____|_____|
+    |   |   |             The Serverless Application Framework
+    |       |                           serverless.com, v1.25.0
+    -------'
 
-        Serverless: Successfully generated boilerplate for template: "kubeless-python"
-        Serverless: NOTE: Please update the "service" property in serverless.yml with your service name
-    ```
-    * 目录介绍
+    Serverless: Successfully generated boilerplate for template: "kubeless-python"
+    Serverless: NOTE: Please update the "service" property in serverless.yml with your service name
+```
+* 目录介绍
 
-    ![](http://zmatsh.b0.upaiyun.com/demos/0d3ccbe2-a619-44ca-bf70-267a2c6a10db.png)
+![](http://zmatsh.b0.upaiyun.com/demos/0d3ccbe2-a619-44ca-bf70-267a2c6a10db.png)
 
-    > 里面会出现四个文件 ，第一个git的忽略文件(不用git可能没有)
-    > 第二个 是function 的主体
-    > 第三个是serverless 部署依赖的yml
+> 里面会出现四个文件 ，第一个git的忽略文件(不用git可能没有)
+> 第二个 是function 的主体
+> 第三个是serverless 部署依赖的yml
 
-    * handler.py
+* handler.py
 
-    ```python
-    import json
-    def hello(request):
-        body = {
-            "message": "Go Serverless v1.0! Your function executed successfully!",
-            "input": request.json
-        }
-        response = {
-            "statusCode": 200,
-            "body": json.dumps(body)
-        }
-        return response
-    ```
-   * serverless.yml
+```python
+import json
+def hello(request):
+    body = {
+        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "input": request.json
+    }
+    response = {
+        "statusCode": 200,
+        "body": json.dumps(body)
+    }
+    return response
+```
+* serverless.yml
 
-   ```yaml
-        # Welcome to Serverless!
-        #
-        # For full config options, check the kubeless plugin docs:
-        #    https://github.com/serverless/serverless-kubeless
-        #
-        # For documentation on kubeless itself:
-        #    http://kubeless.io
+```yaml
+    # Welcome to Serverless!
+    #
+    # For full config options, check the kubeless plugin docs:
+    #    https://github.com/serverless/serverless-kubeless
+    #
+    # For documentation on kubeless itself:
+    #    http://kubeless.io
 
-        # Update the service name below with your own service name
-        service: hello-world
+    # Update the service name below with your own service name
+    service: hello-world
 
-        # Please ensure the serverless-kubeless provider plugin is installed globally.
-        # $ npm install -g serverless-kubeless
-        #
-        # ...before installing project dependencies to register this provider.
-        # $ npm install
+    # Please ensure the serverless-kubeless provider plugin is installed globally.
+    # $ npm install -g serverless-kubeless
+    #
+    # ...before installing project dependencies to register this provider.
+    # $ npm install
 
-        provider:
-        name: kubeless
-        runtime: python2.7
+    provider:
+    name: kubeless
+    runtime: python2.7
 
-        plugins:
-        - serverless-kubeless
+    plugins:
+    - serverless-kubeless
 
-        functions:
-        demo2:  # 有重名 hello 所以改成demo2
-            handler: handler.hello
+    functions:
+    demo2:  # 有重名 hello 所以改成demo2
+        handler: handler.hello
 
-   ```
+```
 
-    * package.json [可以不用管]
-
-
-    * 以上的Serverless 可以运行了
-
-    * 开始部署
-
-    * 提示 `serverless` 可以简写  `sls`
-
-    ```bash
-        ➜  demo2 serverless deploy
-        Serverless: Packaging service...
-        Serverless: Excluding development dependencies...
-        Serverless: Deploying function demo2...
-        Serverless: Function demo2 successfully deployed
-
-    ```
-
-    * 查看是否部署成功
-
-    ![](http://zmatsh.b0.upaiyun.com/demos/c1313fae-c4dc-4b9f-bcb8-1508b8dec8fe.png)
-
-    * 创建`Ingress`
-
-    ```bash
-    kubeless ingress create ingress-demo2  -n default --function demo2
-    # 参数介绍
-    # ingress-demo 是ingress 的名字
-    # -n 是kubernetes 的命名空间
-    # --function 是你要绑定到那个 function
-    ```
-
-    * 执行命令 没有错误即可，检查 ingress 是否创建
-
-    ```bash
-        kubeless ingress list
-    ```
-
-    ![](http://zmatsh.b0.upaiyun.com/demos/e2839acc-e728-4f81-99e1-97474ec53a40.png)
-
-    * 找到我们的链接
-
-    ```text
-        demo2.192.168.64.2.nip.io
-    ``
-    * 用postman进行测试。
-
-    ![](http://zmatsh.b0.upaiyun.com/demos/6e04c70c-ad58-46a5-afc7-498b741323f6.png)
-
-    * 测试通过
+* package.json [可以不用管]
 
 
-# 总结
+* 以上的Serverless 可以运行了
 
-    * ingress 安装一定要检查好
-    * serverless-kubeless 每次创建一个 fucntion 都需要在当前目录执行安装命令`npm install serverless-kubeless`
-    * 目前kubeless 支持的语言比较少(runtime) python nodejs
-    * 有兴趣可以看看 `aws lambda` 还有 `fnproject`
-    * 教程整理比较匆忙如果有疑问请留言。
+* 开始部署
+
+* 提示 `serverless` 可以简写  `sls`
+
+```bash
+    ➜  demo2 serverless deploy
+    Serverless: Packaging service...
+    Serverless: Excluding development dependencies...
+    Serverless: Deploying function demo2...
+    Serverless: Function demo2 successfully deployed
+
+```
+
+* 查看是否部署成功
+
+![](http://zmatsh.b0.upaiyun.com/demos/c1313fae-c4dc-4b9f-bcb8-1508b8dec8fe.png)
+
+* 创建`Ingress`
+
+```bash
+kubeless ingress create ingress-demo2  -n default --function demo2
+# 参数介绍
+# ingress-demo 是ingress 的名字
+# -n 是kubernetes 的命名空间
+# --function 是你要绑定到那个 function
+```
+
+* 执行命令 没有错误即可，检查 ingress 是否创建
+
+```bash
+    kubeless ingress list
+```
+
+![](http://zmatsh.b0.upaiyun.com/demos/e2839acc-e728-4f81-99e1-97474ec53a40.png)
+
+* 找到我们的链接
+
+```bash
+    demo2.192.168.64.2.nip.io
+```
+
+* 用postman进行测试。
+
+![](http://zmatsh.b0.upaiyun.com/demos/6e04c70c-ad58-46a5-afc7-498b741323f6.png)
+
+  > 测试通过
+
+
+#总结
+
+* ingress 安装一定要检查好
+* serverless-kubeless 每次创建一个 fucntion 都需要在当前目录执行安装命令`npm install serverless-kubeless`
+* 目前kubeless 支持的语言比较少(runtime) python nodejs
+* 有兴趣可以看看 `aws lambda` 还有 `fnproject`
+* 教程整理比较匆忙如果有疑问请留言。
 
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
