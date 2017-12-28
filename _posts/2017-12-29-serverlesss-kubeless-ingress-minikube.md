@@ -7,10 +7,10 @@ description: 通过 Serverless 创建 functionkubeless）以及简化开。
 keywords: serverless
 ---
 
-# 文章介绍，Serverless + kubernetes + ingress + kubeless 快速开发function 简化开发，无服务器接口，让开发更快 更爽
+####  文章介绍，Serverless + kubernetes + ingress + kubeless 快速开发function 简化开发，无服务器接口，让开发更快 更爽
 
 
-# 工具
+## 工具
 
   * kubernetes
   * kubeless
@@ -18,7 +18,7 @@ keywords: serverless
   * serverless
 
 
-# 启动Minikube
+## 启动Minikube
 
   * 配置Docker 代理下载镜像速度能快一点。
 
@@ -47,7 +47,7 @@ minikube start --docker-env HTTP_PROXY=http://192.168.155.2:8118 \
 
 
 
-# 正题
+## 正题
 
   * 创建一个空的目录一会要用到
 
@@ -189,16 +189,17 @@ kubeless ingress create ingress-demo2  -n default --function demo2
 
 ![](http://zmatsh.b0.upaiyun.com/demos/6e04c70c-ad58-46a5-afc7-498b741323f6.png)
 
-  > 测试通过
+  测试通过
 
 
-#总结
 
-* ingress 安装一定要检查好
-* serverless-kubeless 每次创建一个 fucntion 都需要在当前目录执行安装命令`npm install serverless-kubeless`
-* 目前kubeless 支持的语言比较少(runtime) python nodejs
-* 有兴趣可以看看 `aws lambda` 还有 `fnproject`
-* 教程整理比较匆忙如果有疑问请留言。
+## 总结
+
+  * ingress 安装一定要检查好
+  * serverless-kubeless 每次创建一个 fucntion 都需要在当前目录执行安装命令`npm install serverless-kubeless`
+  * 目前kubeless 支持的语言比较少(runtime) python nodejs
+  * 有兴趣可以看看 `aws lambda` 还有 `fnproject`
+  * 教程整理比较匆忙如果有疑问请留言。
 
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
