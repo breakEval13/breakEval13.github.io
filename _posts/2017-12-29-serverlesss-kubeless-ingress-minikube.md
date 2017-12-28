@@ -11,50 +11,55 @@ keywords: serverless
 
 
 # 工具
-    * kubernetes
-    * kubeless
-    * ingress
-    * serverless
+
+  * kubernetes
+  * kubeless
+  * ingress
+  * serverless
 
 
 # 启动Minikube
-    * 配置Docker 代理下载镜像速度能快一点。
+
+  * 配置Docker 代理下载镜像速度能快一点。
 
 ```bash
-
 minikube start --docker-env HTTP_PROXY=http://192.168.155.2:8118 \
                  --docker-env HTTPS_PROXY=https://192.168.155.2:8118
 
 ```
   * 检查kubernetes 是否已经启动完成。
 
-    ![](http://zmatsh.b0.upaiyun.com/demos/d8922ed9-aeb0-4056-9abb-3319cf2b7544.png)
+  ![](http://zmatsh.b0.upaiyun.com/demos/d8922ed9-aeb0-4056-9abb-3319cf2b7544.png)
 
   * 检查ingress
      
-    ![](http://zmatsh.b0.upaiyun.com/demos/51342058-f68a-4c0f-ba9b-9ff846c8a571.png)
+  ![](http://zmatsh.b0.upaiyun.com/demos/51342058-f68a-4c0f-ba9b-9ff846c8a571.png)
    
 
   * 检查UI是否已经启动
     
-    ![](http://zmatsh.b0.upaiyun.com/demos/baee88c2-ccfc-4551-9596-6752c4640826.png)
+  ![](http://zmatsh.b0.upaiyun.com/demos/baee88c2-ccfc-4551-9596-6752c4640826.png)
 
   * 检查kubelessui[有没有都可以]
 
-    ![](http://zmatsh.b0.upaiyun.com/demos/4a80959d-8db3-4a44-bc41-403f1c77f324.png)
+  ![](http://zmatsh.b0.upaiyun.com/demos/4a80959d-8db3-4a44-bc41-403f1c77f324.png)
 
 
 
 
 # 正题
 
-* 创建一个空的目录一会要用到
-* 安装 serverless  `npm install serverless` 
-* 安装 serverless-kubeless  `npm install serverless-kubeless`
-* 创建一个serverless function `serverless create --template kubeless-python`
-* 看看serverless 支持多少模版
+  * 创建一个空的目录一会要用到
 
-![](http://zmatsh.b0.upaiyun.com/demos/6b52ee20-569a-4450-b3b9-b495c9e3fd0b.png)
+    * 安装 serverless  `npm install serverless` 
+
+    * 安装 serverless-kubeless  `npm install serverless-kubeless`
+
+    * 创建一个serverless function `serverless create --template kubeless-python`
+    
+    * 看看serverless 支持多少模版
+
+    ![](http://zmatsh.b0.upaiyun.com/demos/6b52ee20-569a-4450-b3b9-b495c9e3fd0b.png)
 
 * 执行创建命令
 
