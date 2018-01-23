@@ -4,7 +4,7 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: 山脚下的胖子...
+title: 观海听涛
 subtitle: "这一生如履赴冰 何时能走到对岸."
 description: "Flink，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx,Spark,docker。"
 keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,docker,Docker,Dockerfile,zmatsh
@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: breakeval13
-organization: Tod, Inc.
-organization_url: https://timeondata.com
+organization: TimeOnData, Inc.
+organization_url: https://www.timeondata.com
 location: Beijing, China
 email: zhang-rd-fe@s139.org
 
