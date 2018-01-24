@@ -87,7 +87,14 @@ keywords: rocketmq
      ```
 
 ## start
+  * 修改脚本参数
 
+    ```bash
+       #runbroker.sh
+        JAVA_OPT="${JAVA_OPT} -server -Xms1g  -Xmx1g -Xmn512m -XX:PermSize=128m -XX:MaxPermSize=320m"
+       #runserver.sh
+       JAVA_OPT="${JAVA_OPT} -server -Xms1g -Xmx1g -Xmn512m -XX:PermSize=128m -XX:MaxPermSize=320m
+    ```
   * 启动RocketMQ
 
      ```bash
