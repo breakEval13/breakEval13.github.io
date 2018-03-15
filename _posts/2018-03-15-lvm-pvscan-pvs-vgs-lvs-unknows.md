@@ -50,7 +50,7 @@ keywords: lvm vgs pv lv unknowsDevice
             创建完成PV-->mkfs(格盘)-->vgs(warning Device with uuid XXXXXX-xxxxxx-xxx-xxxx-xxxxx)
 
             解决办法：
-            pvcreate --uuid "UUID" --restorefile /etc/lvm/archie/rhel_000001-1511980835.vg  /dev/sdb1
+            pvcreate --uuid "UUID" --restorefile /etc/lvm/archie/rhel_000001-1511980835.vg  /dev/sdb1 -ff
 
             如果解决不了用第二种方式：
             vgreduce --removemissing --verbose myVG_NAME
