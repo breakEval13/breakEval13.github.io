@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: linux
-title: LVM unknown device: how to recover?
+title: LVM unknown device how to recover?
 date: 2018-03-15 14:36:05 +0800
 description: I have a server with two hard drives that I thought I had correctly installed with LVM, until I discovered that the second hard-drive did not actually seem to be used. I investigated the problem and followed some instructions found online, but the problem got worse. Apparently, my initial mistake was to remove the physical volume with pvremove when I should have used mvreduce.
 keywords: lvm vgs pv lv unknowsDevice
