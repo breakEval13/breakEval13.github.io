@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: awk
-title: linu硬盘检查大小awk脚本全自动执行
+title: linux硬盘检查大小awk脚本全自动执行,以及日志抽取
 date: 2018-04-04 17:08:52 +0800
 description: 硬盘监测
 keywords: awk linux 硬盘检查
