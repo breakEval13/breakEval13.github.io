@@ -15,7 +15,7 @@ after_success:
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
   - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/uk0/dist.git master:master
-  - ssh root@cgroup.ltd docker-compose restart blog-jekyll
+  - ssh root@cgroup.ltd docker restart 7a087c713af1
 branches:
   only:
     - master
