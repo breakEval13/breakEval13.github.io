@@ -4,10 +4,10 @@
 baseurl:
 url: http://firsh.me
 date_format: "ordinal"
-title: 观海听涛
-subtitle: "这一生如履赴冰 何时能走到对岸."
+title: 张建新
+subtitle: "任何能轻易得到的东西，都值得你珍惜."
 description: "Flink，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx,Spark,docker。"
-keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,docker,Docker,Dockerfile,zmatsh
+keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,hadoop,hbase,mongodb,hdfs,Geek,hack,Spring boot,spring boot,spring,Docker,Dockerfile,Java ,Python 冷漠
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -113,8 +113,8 @@ google:
 # ---------------- #
 #      Datas       #
 # ---------------- #
-skill_software_keywords: [Java, C, Python, Golang,前端,Docker,swagger,kubernetes,linux]
-skill_mobile_app_keywords: [Android, Wex5, phoneGap]
+skill_software_keywords: [Java, C, Python, Golang,JavaScript,Docker,Hadoop,Hbase,Flink,Storm,CrateDb,MongoDB,Kubernetes,Linux]
+skill_mobile_app_keywords: [Android, Wex5, phoneGap,DSM]
 #skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
 
 # ---------------- #
