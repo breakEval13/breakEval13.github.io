@@ -235,29 +235,32 @@ keywords: react,ant-design-pro,aliyun
 
 ####  <span id = "form_2"><font>Ant StandardTable 数据格式</font></span>
 
-     ```js
-      /**
-      * 我们通过 model获得的数据将如何渲染出去是个问题，StandardTable是一个 ant封装的组件，如果你要用他的组件就要满足他的数据格式
-      **/
-        const {parkingPayManager: {channelData}} = this.props;
-            const newdata = {
-            list: channelData,
-            pagination: {
-                total: channelData.length,
-                pageSize: 10,
-                current: 1,
-            },
-        };
+ * 开始演示
 
-        ...
+    ```js
 
-            <StandardTable
-              selectedRows={selectedRows}
-              loading={isLoading}
-              data={newdata}
-              columns={columns}
-            />
-     ```
+        /**
+        * 我们通过 model获得的数据将如何渲染出去是个问题，StandardTable是一个 ant封装的组件，如果你要用他的组件就要满足他的数据格式
+        **/
+            const {parkingPayManager: {channelData}} = this.props;
+                const newdata = {
+                list: channelData,
+                pagination: {
+                    total: channelData.length,
+                    pageSize: 10,
+                    current: 1,
+                },
+            };
+
+            ...
+
+                <StandardTable
+                selectedRows={selectedRows}
+                loading={isLoading}
+                data={newdata}
+                columns={columns}
+                />
+    ```
 
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
