@@ -17,6 +17,7 @@ keywords: react,ant-design-pro,aliyun
 
 ###  问
    * <a href="#form_1" target="_self">如何编辑修改在一个Form内进行操作</a>
+   * <a href="#form_2" target="_self">关于Ant(StandardTable)的默认数据格式</a>
 
 
 
@@ -24,9 +25,9 @@ keywords: react,ant-design-pro,aliyun
 
 
 ### 答
-  * <span id = "form_1"><font>在Form如何进行编辑以及新增数据。</font></span>
+  ####   <span id = "form_1"><font>在Form如何进行编辑以及新增数据。</font></span>
 
-    * 开始这个演示，注意注释描述,代码不一定能运行，只是整体做个介绍
+  * 开始这个演示，注意注释描述,代码不一定能运行，只是整体做个介绍
 
     ```js
         const CreateForm = Form.create()(props => {
@@ -230,6 +231,32 @@ keywords: react,ant-design-pro,aliyun
             })
         }
     ```
+
+####  <span id = "form_2"><font>Ant StandardTable 数据格式</font></span>
+
+     ```js
+      /**
+      * 我们通过 model获得的数据将如何渲染出去是个问题，StandardTable是一个 ant封装的组件，如果你要用他的组件就要满足他的数据格式
+      **/
+        const {parkingPayManager: {channelData}} = this.props;
+            const newdata = {
+            list: channelData,
+            pagination: {
+                total: channelData.length,
+                pageSize: 10,
+                current: 1,
+            },
+        };
+
+        ...
+        
+            <StandardTable
+              selectedRows={selectedRows}
+              loading={isLoading}
+              data={newdata}
+              columns={columns}
+            />
+     ```
 
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
