@@ -25,7 +25,8 @@ keywords: react,ant-design-pro,aliyun
 
 
 ### 答
-  ####   <span id = "form_1"><font>在Form如何进行编辑以及新增数据。</font></span>
+
+####   <span id = "form_1"><font>在Form如何进行编辑以及新增数据。</font></span>
 
   * 开始这个演示，注意注释描述,代码不一定能运行，只是整体做个介绍
 
@@ -249,7 +250,7 @@ keywords: react,ant-design-pro,aliyun
         };
 
         ...
-        
+
             <StandardTable
               selectedRows={selectedRows}
               loading={isLoading}
