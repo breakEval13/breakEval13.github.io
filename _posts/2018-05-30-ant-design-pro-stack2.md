@@ -19,6 +19,7 @@ keywords: react,ant-design-pro,aliyun
    * <a href="#form_1" target="_self">如何编辑修改在一个Form内进行操作</a>
    * <a href="#form_2" target="_self">关于Ant(StandardTable)的默认数据格式</a>
    * <a href="#form_3" target="_self">关于Ant方法按钮方法触发的方式，以及如何定义。</a>
+   * <a href="#form_4" target="_self">简单描述一下dispatch调用的过程。</a>
 
 
 
@@ -276,6 +277,79 @@ keywords: react,ant-design-pro,aliyun
                 修改
         </Button>
     ```
+####   <span id = "form_4"><font>dispatch type payload 获得数据的流程(Redux) </font></span>
+
+*  第一个问题什么是 Store , Store主要功能
+
+
+    1. Store需要负责接收Views传来的Action 然后，根据Action.type和Action.payload对Store里的数据进行修改
+    最后，
+
+    2. Store还需要通知Views，数据有改变，Views便去获取最新的Store数据，通过setState进行重新渲染组件（`re-render`）
+
+* Store如何接收来自Views的Action?
+    1.   每一个Store实例都拥有dispatch方法，Views只需要通过调用该方法，并传入action对象作为形参，Store自然就就可以收到Action，就像这样：
+    ```js
+        store.dispatch({
+    type: 'modal(namespace)/function Name'
+});
+    ```
+* Store在接收到Action之后，需要根据Action.type和Action.payload修改存储数据，那么，这部分逻辑写在哪里，且怎么将这部分逻辑传递给Store知道呢？
+    1. 数据修改逻辑写在Reducer（一个纯函数）里，Store实例在创建的时候，就会被传递这样一个reducer作为形参，这样Store就可以通过Reducer的返回值更新内部数据了，先看一个简单的例子(具体的关于reducer我们后面再讲)：
+    ```js
+        // 一个reducer
+        function counterReducer(state = 0, action) {
+        switch (action.type) {
+            case 'INCREASE':
+            return state + 1;
+            case 'DECREASE':
+            return state - 1;
+            default:
+            return state;
+        }
+        }
+
+        // 传递reducer作为形参
+        let store = Redux.createStore(counterReducer);
+    ```
+
+* Store通过Reducer修改好了内部数据之后，又是如何通知Views需要获取最新的Store数据来更新的呢？
+    1. 每一个Store实例都提供一个subscribe方法，Views只需要调用该方法注册一个回调（内含setState操作），之后在每次dispatch(action)时，该回调都会被触发，从而实现重新渲染；对于最新的Store数据，可以通过Store实例提供的另一个方法getState来获取，就像下面这样：
+
+    ```js
+    let unsubscribe = store.subscribe(() =>
+        console.log(store.getState())
+    );
+    //如下
+
+    function createStore(reducer, initialState, enhancer) {
+        var currentReducer = reducer
+        var currentState = initialState
+        var listeners = []
+
+        // 省略若干代码
+        //...
+
+        // 通过reducer初始化数据
+        dispatch({ type: ActionTypes.INIT })
+
+        return {
+            dispatch,
+            subscribe,
+            getState,
+            replaceReducer
+        }
+    }
+    ```
+* 归纳总结
+
+    1. Store的数据修改，本质上是通过Reducer来完成的。
+    2. Store只提供get方法（即getState），不提供set方法，所以数据的修改一定是通过dispatch(action)来完成，即：action -> reducers -> store
+    3. Store除了存储数据之外，还有着消息发布/订阅（pub/sub）的功能，也正是因为这个功能，它才能够同时连接着Actions和Views。
+
+        3.1 dispatch方法 对应着 pub
+
+        3.1 subscribe方法 对应着 sub
 
 
 
