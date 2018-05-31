@@ -18,7 +18,7 @@ keywords: react,ant-design-pro,aliyun
 ###  问
    * <a href="#form_1" target="_self">如何编辑修改在一个Form内进行操作</a>
    * <a href="#form_2" target="_self">关于Ant(StandardTable)的默认数据格式</a>
-
+   * <a href="#form_3" target="_self">关于Ant方法按钮方法触发的方式，以及如何定义。</a>
 
 
 
@@ -261,6 +261,23 @@ keywords: react,ant-design-pro,aliyun
                 columns={columns}
                 />
     ```
+
+####   <span id = "form_3"><font>按钮onClick，渲染触发。</font></span>
+
+* 按钮定义
+
+    ```js
+        /**
+        * ()=>this.ModifyHandleModalVisible(row,true) 用匿名函数的方式定义不会再加载的时候被触发
+        *
+        * this.ModifyHandleModalVisible(row,true)  这样会直接被触发（渲染周期开始）。
+        **/
+        <Button type="edit" onClick={()=>this.ModifyHandleModalVisible(row,true)}>
+                修改
+        </Button>
+    ```
+
+
 
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
