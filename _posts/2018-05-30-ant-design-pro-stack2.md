@@ -20,7 +20,7 @@ keywords: react,ant-design-pro,aliyun
    * <a href="#form_2" target="_self">关于Ant(StandardTable)的默认数据格式</a>
    * <a href="#form_3" target="_self">关于Ant方法按钮方法触发的方式，以及如何定义。</a>
    * <a href="#form_4" target="_self">简单描述一下dispatch调用的过程。</a>
-
+   * <a href="#form_5" target="_self">Redux(Router)页面跳转，携带参数的方式</a>
 
 
 
@@ -234,7 +234,7 @@ keywords: react,ant-design-pro,aliyun
         }
     ```
 
-####  <span id = "form_2"><font>Ant StandardTable 数据格式</font></span>
+####   <span id = "form_2"><font>Ant StandardTable 数据格式</font></span>
 
  * 开始演示
 
@@ -352,6 +352,76 @@ keywords: react,ant-design-pro,aliyun
         3.1 subscribe方法 对应着 sub
 
 
+
+####   <span id = "form_5"><font>Ant Redux 页面传递参数，多种方式</font></span>
+
+
+* path 携带参数 `props.params`
+
+    ```js
+    /**传递*/
+    import { Router,Route,hashHistory} from 'react-router';
+    class App extends React.Component {
+        render() {
+        ...
+        /**使用方式*/
+        var data = {id:1,name:1,age:1};
+        data = JSON.stringify(data);
+        var path = `/user/${data}`;
+        ...
+        return (
+            <Router history={hashHistory}>
+                <Route path='/user/:name' component={UserPage}></Route>
+            </Router>
+        )
+        }
+    }
+    /**接收**/
+
+    export default class UserPage extends React.Component{
+        constructor(props){
+            super(props);
+        }
+        render(){
+            return(<div>this.props.params.name</div>)
+        }
+    }
+    ```
+*   query 类似`request`的`get`
+
+
+    ```js
+        <Route path='/user' component={UserPage}></Route>
+
+       ...
+       /**使用方式**/
+       var data = {id:1,name:1,age:1};
+        var path = {
+        pathname:'/user',
+        query:data,
+        }
+       ...
+        /**获取数据**/
+        var data = this.props.location.query;
+        var {id,name,age} = data;
+    ```
+*  state方式类似于post方式，使用方式和query类似，首先定义路由：
+
+    ```js
+        <Route path='/user' component={UserPage}></Route>
+        ...
+        /**使用*/
+        var data = {id:3,name:sam,age:36};
+        var path = {
+            pathname:'/user',
+            state:data,
+        }
+        ...
+        /**获取数据*/
+        var data = this.props.location.state;
+        var {id,name,age} = data;
+    ```
+* `state`方式依然可以传递任意类型的数据，而且可以不以明文方式传输.
 
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
