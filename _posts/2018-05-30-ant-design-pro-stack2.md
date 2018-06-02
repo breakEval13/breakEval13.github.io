@@ -423,5 +423,7 @@ keywords: react,ant-design-pro,aliyun
     ```
 * `state`方式依然可以传递任意类型的数据，而且可以不以明文方式传输.
 
+![](http://47.93.5.46/1.jpeg)
+
 
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
