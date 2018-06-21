@@ -3,10 +3,10 @@
 
 <title>diff</title>
 
-<script src="./diff/hm.js"></script><script type="text/javascript" src="./diff/dojo.js"></script>
+<script src="https://firsh.me/diff/hm.js"></script><script type="text/javascript" src="https://firsh.me/diff/dojo.js"></script>
 <script type="text/javascript" src="./diff/diffview.js"></script>
-<link rel="stylesheet" type="text/css" href="./diff/diffview.css">
-<script type="text/javascript" src="./diff/difflib.js"></script>
+<link rel="stylesheet" type="text/css" href="https://firsh.me/diff/diffview.css">
+<script type="text/javascript" src="https://firsh.me/diff/difflib.js"></script>
 <script language="javascript">
 var $=dojo.byId;dojo.require("dojo.io");var url=window.location.toString().split("#")[0];function diffUsingJS(){var base=difflib.stringAsLines($("baseText").value);var newtxt=difflib.stringAsLines($("newText").value);var sm=new difflib.SequenceMatcher(base,newtxt);var opcodes=sm.get_opcodes();var diffoutputdiv=$("diffoutput");while(diffoutputdiv.firstChild)diffoutputdiv.removeChild(diffoutputdiv.firstChild);var contextSize=$("contextSize").value;contextSize=contextSize?contextSize:null;diffoutputdiv.appendChild(diffview.buildView({baseTextLines:base,newTextLines:newtxt,opcodes:opcodes,baseTextName:"Base Text",newTextName:"New Text",contextSize:contextSize,viewType:$("inline").checked?1:0}));window.location=url+"#diff";}function diffUsingPython(){dojo.io.bind({url:"/diff/postYieldDiffData",method:"POST",content:{baseText:$("baseText").value,newText:$("newText").value,ignoreWhitespace:"Y"},load:function(type,data,evt){try{data=eval('('+data+')');while(diffoutputdiv.firstChild)diffoutputdiv.removeChild(diffoutputdiv.firstChild);$("output").appendChild(diffview.buildView({baseTextLines:data.baseTextLines,newTextLines:data.newTextLines,opcodes:data.opcodes,baseTextName:data.baseTextName,newTextName:data.newTextName,contextSize:contextSize}));}catch(ex){alert("An error occurred updating the diff view:\n"+ex.toString());}},error:function(type,evt){alert('Error occurred getting diff data.  Check the server logs.');},type:'text/javascript'});}
 </script>
