@@ -15,8 +15,8 @@ keywords:
 
 好在，Docker 强大的软硬件隔离特性要发挥威力了！好，就走 Docker 这条路！剩下的问题也就变成了 Docker & Docker Compose 的安装问题了！
 
-本文基于以下两篇文章而成，并结合自己遇到的坑写的。 
-- How To Install Docker on CentOS 6 
+本文基于以下两篇文章而成，并结合自己遇到的坑写的。
+- How To Install Docker on CentOS 6
 - Docker and docker-compose in CentOS 6
 
 ## 一、安装 Docker
