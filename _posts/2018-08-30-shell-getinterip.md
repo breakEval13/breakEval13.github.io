@@ -33,7 +33,7 @@ then
 	echo "search inter ip "
         ip=$(cat ${bashpath}/ip.html  | sed  's/：/ /g' | awk '{print$3}')
 	echo $ip
-    rm {bashpath}/ip.html
+    rm ${bashpath}/ip.html
 fi
 ```
 
