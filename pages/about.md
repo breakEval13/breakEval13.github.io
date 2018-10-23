@@ -8,7 +8,7 @@ menu: 关于
 permalink: /about/
 ---
 
-我是Zmatsh，码而生，码而立，工作狂。
+我是 一个有点肥胖的码农。。
 
 仰慕 [优雅编码的艺术,精湛的技术]。
 
@@ -19,7 +19,7 @@ permalink: /about/
 * 用事实去证明自己，用行动来激励自己。
 ## 联系
 
-* GitHub：[@zmatsh](https://github.com/zmatsh)
+* GitHub：[@zmatsh](https://github.com/uk0)
 * 博客：[{{ site.title }}]({{ site.url }})
 * twitter [@firshMe](https://twitter.com/firshMe)
 

@@ -33,23 +33,23 @@ navs:
 
   -
     href: /categories/
-    label: categories
+    label: CATEGORIES
 
   -
     href: /open-source/
-    label: open-source
+    label: OPEN-SOURCE
 
   -
     href: /wiki/
-    label: wiki
+    label: WIKI
 
   -
     href: /links/
-    label: links
+    label: LINKS
 
   -
     href: /about/
-    label: about
+    label: ABOUT
 
 # ---------------- #
 #       RSS        #
