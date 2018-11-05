@@ -62,4 +62,40 @@ def doupload():
     return 'ok'
 ```
 
+
+* serverless.yml
+
+
+```yaml
+# Welcome to Serverless!
+#
+# For full config options, check the kubeless plugin docs:
+#    https://github.com/serverless/serverless-kubeless
+#
+# For documentation on kubeless itself:
+#    http://kubeless.io
+
+# Update the service name below with your own service name
+service: put-taskjar
+
+# Please ensure the serverless-kubeless provider plugin is installed globally.
+# $ npm install -g serverless-kubeless
+#
+# ...before installing project dependencies to register this provider.
+# $ npm install
+
+provider:
+  name: kubeless
+  namespace: ${env:K8S_NAMESPACE, 'cloudera'}
+  runtime: python2.7
+
+plugins:
+  - serverless-kubeless
+
+functions:
+  upload:
+    handler: task.upload
+
+```
+
 * 具体信息看第一条关于 serverless 的文章。
