@@ -8,10 +8,14 @@ keywords: awk linux sed tail less head
 ---
 
 
-### 直接上代码
+Linux 相关使用记录以及遇到的问题。
+
+
+## 直接上代码
 
 
 ```bash
+
 set time = 12:34:56
 set hr = `echo $time | awk '{split($0,a,":" ); print a[1]}'` # = 12
 
