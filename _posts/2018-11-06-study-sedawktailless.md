@@ -1,10 +1,10 @@
 ---
 layout: post
 categories: linux
-title: Linux里awk中split函数用法尝试[整理+转载]
+title: Linux里awk,sed,less,tail,count函数的用法[整理+转载]
 date: 2018-11-06 15:16:43 +0800
-description: Linux里awk,sed,less,tail,count函数的用法
-keywords: awk linux sed tail less head
+description: Linux的一些小公举的玩弄啊。
+keywords: awk
 ---
 
 
