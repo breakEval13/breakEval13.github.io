@@ -1,12 +1,11 @@
 ---
 layout: post
-categories: linux awk sed tail head
+categories: linux
 title: Linux里awk中split函数用法尝试[整理+转载]
 date: 2018-11-06 15:16:43 +0800
 description: Linux里awk,sed,less,tail,count函数的用法
 keywords: awk linux sed tail less head
 ---
-
 
 
 ### 直接上代码

@@ -7,9 +7,7 @@ description: serverless 通过 python 操作hdfs
 keywords: hdfs
 ---
 
-
-转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
-
+这只是一次尝试。。。。
 
 ## kubernetes serverless 操作 Hadoop Hdfs 
 
@@ -99,3 +97,6 @@ functions:
 ```
 
 * 具体信息看第一条关于 serverless 的文章。
+
+
+转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
