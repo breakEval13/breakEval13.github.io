@@ -103,4 +103,10 @@ echo  "$code";
 
 测试地址。> http://www.txtwizard.net/compression
 
+https://stackoverflow.com/questions/40893411/golang-python-zlib-difference
+
+
+https://stackoverflow.com/questions/52767214/compressed-output-differs-from-go-to-ruby-implementation
+
+
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
