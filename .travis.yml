@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.3.3
+  - 2.5.0
 before_install:
   - openssl aes-256-cbc -K $encrypted_11a7762f2f0f_key -iv $encrypted_11a7762f2f0f_iv -in id_rsa.enc  -out ~/.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
