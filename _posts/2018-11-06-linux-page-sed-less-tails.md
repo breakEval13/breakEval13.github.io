@@ -147,6 +147,26 @@ aln
 ```
 
 
+*  清除 Javascript 脚本里面的所有console(包含即删除整行)
+
+```bash
+ sed -i "" "/console/d" app.txt # Mac （Mac默认会要求你操作源文件的时候备份）
+
+# 可以配合 find 使用
+ find . -name "*.js"
+ sed -i "/console/d" app.txt # Linux
+
+#Mac 
+
+find . -name "*.js" | awk '{print$1}' | xargs -L1  -I NAME sed -i ""  "/console/d" NAME
+
+# 如果失败或者遇到问题
+git checkout . && git clean -xdf
+
+
+```
+
+
 
 一个Linux 大佬 https://blog.csdn.net/imxiangzi/article/details/50387073
 

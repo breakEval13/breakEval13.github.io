@@ -10,12 +10,12 @@ script:
 after_success:
   - git clone https://github.com/uk0/dist.git
   - cd dist && rm -rf * && cp -r ../_site/* .
-  - git config user.name "uk0"
+  - git config user.name "dnb"
   - git config user.email "net@socializeq.com"
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
   - git push --force --quiet https://$JEKYLL_GITHUB_TOKEN@github.com/uk0/dist.git master:master
-  - ssh root@cgroup.ltd docker restart compose-cicdx
+  - ssh root@cgroup.ltd cd /home/blog && docker-compose restart
 branches:
   only:
     - master
