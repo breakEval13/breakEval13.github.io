@@ -29,7 +29,7 @@ email: zhang-rd-fe@s139.org
 navs:
   -
     href: /
-    label: Index
+    label: INDEX
 
   -
     href: /categories/
@@ -115,7 +115,7 @@ google:
 # ---------------- #
 skill_software_keywords: [Java, C, Python, Golang,JavaScript,Docker,Hadoop,Hbase,Flink,Storm,CrateDb,MongoDB,Kubernetes,Linux]
 skill_mobile_app_keywords: [Android, Wex5, phoneGap,DSM]
-#skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
+skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]
 
 # ---------------- #
 # Github metadata  #
