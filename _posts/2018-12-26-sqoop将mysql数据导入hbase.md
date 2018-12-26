@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: hbase sqoop
-title: 使用Sqoop将Mysql数据导入到Hbase[整表,部分数据]
+title: 使用Sqoop将mysql数据导入到Hbase[整表,部分数据]
 date: 2018-12-26 18:08:22 +0800
 description: sqoop 迁移数据
 keywords: sqoop
