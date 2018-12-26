@@ -85,4 +85,54 @@ if __name__ == '__main__':
 
 
 
+
+## 补充 serverless 上传jar的代码
+
+* 注意 kubeless 1.0.0版本 Python 的runtime是基于`bottle`还是可以做点手脚的。
+
+```python
+# /usr/bin/env python
+# coding=utf-8
+
+import paramiko
+import os
+from hdfs import Client
+from bottle import route, run
+from bottle import request
+
+client = Client("http://hdfs-web-svc.cloudera:50070", root="/", timeout=100, session=False)
+# 文件上传的HTML模板，这里没有额外去写html模板了，直接写在这里，方便点吧
+@route('/upload')
+def upload():
+    return '''
+        <html>
+            <head>
+            </head>
+            <body>
+                <form action"/upload" method="post" enctype="multipart/form-data">
+                    <input type="file" name="data" />
+                    <input type="submit" value="Upload" />
+                </form>
+            </body>
+        </html>
+    '''
+# 文件上传，overwrite=True为覆盖原有的文件，
+# 如果不加这参数，当服务器已存在同名文件时，将返回“IOError: File exists.”错误
+@route('/upload', method='POST')
+def doupload():
+    upload = request.files.getall('data')
+    for meta in upload:
+        buf = meta.file.read()
+        name, ext = os.path.splitext(meta.filename)
+        if ext not in ('.jar', '.tar'):
+            return 'File extension not allowed. type [JAR]'
+        path = '/task/mr/' + name + ext
+        # ssh root@agent-2.agent-svc.cloudera.svc.cluster.local
+        print("--------------save Task To" + path)
+        with client.write(path, overwrite=True) as writer:
+            writer.write(buf);
+    return 'ok'
+
+```
+
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
