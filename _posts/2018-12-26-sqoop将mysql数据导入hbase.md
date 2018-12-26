@@ -1,22 +1,19 @@
 ---
 layout: post
 categories: hbase sqoop
-title: 使用Sqoop将Mysql数据导入到Hbase(整表,部分数据)
+title: 使用Sqoop将Mysql数据导入到Hbase[整表,部分数据]
 date: 2018-12-26 18:08:22 +0800
 description: sqoop 迁移数据
-keywords: sqoop import mysql
+keywords: sqoop
 ---
 
 
-
-使用sqoop 将数据从mysql 导入到hbase 分为 整张表 和 部分数据，其中部分数据基于 where 条件等。
-
+使用sqoop 将数据从mysql 导入到hbase 分为 整张表 和 部分数据，其中部分数据基于 where条件等。
 
 
 ### 相关的命令
 
 ```bash
-
 # 整个表导入
 ./bin/sqoop import --driver com.mysql.jdbc.Driver --connect "jdbc:mysql://rm-adfagga.mysql.rds.aliyuncs.com/parking?zeroDateTimeBehavior=convertToNull" --username user1 --password 123123 --table parking_ths_car_record --hbase-table parking_ths_car_record_all --column-family id --hbase-row-key id --split-by park_id --hbase-create-table
 
