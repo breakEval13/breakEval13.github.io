@@ -8,7 +8,7 @@ keywords: sqoop
 ---
 
 
-使用sqoop 将数据从mysql 导入到hbase 分为 整张表 和 部分数据，其中部分数据基于 where条件等。
+使用sqoop 将数据从mysql 导入到hbase 分为 整张表 和 部分数据，其中部分数据基于 where条件等。
 
 
 ### 相关的命令
