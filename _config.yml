@@ -5,7 +5,7 @@ baseurl:
 url: http://firsh.me
 date_format: "ordinal"
 title: 张建新
-subtitle: "我没有生来天赋过人，只剩对于技术的虔诚."
+subtitle: "我没有生来天赋过人，只剩对于技术的虔诚."
 description: "Flink，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx,Spark,docker。"
 keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,hadoop,hbase,mongodb,hdfs,Geek,hack,Spring boot,spring boot,spring,Docker,Dockerfile,Java ,Python 冷漠
 favicon: /favicon.ico
