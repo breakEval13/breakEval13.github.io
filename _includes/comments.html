@@ -54,35 +54,24 @@
         <!-- Duoshuo Comment END -->
         {% endif %}
       {% endif %}
-    {% when 'duoshuo' %}
-      {% if site.duoshuo_username %}
-      <!-- Duoshuo Comment BEGIN -->
-      <!-- 多说评论框 BEGIN -->
-      <div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
-      <!-- 多说评论框 END -->
-      <amp-auto-ads type="adsense"
-              data-ad-client="ca-pub-3969253077255521">
-      </amp-auto-ads>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-3969253077255521",
-          enable_page_level_ads: true
-        });
-      </script>
-      <!-- 多说公共JS代码 BEGIN (一个网页只需插入一次) -->
-      <script type="text/javascript">
-      var duoshuoQuery = {short_name:"{{ site.duoshuo_username }}"};
-        (function() {
-          var ds = document.createElement('script');
-          ds.type = 'text/javascript';ds.async = true;
-          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-          ds.charset = 'UTF-8';
-          (document.getElementsByTagName('head')[0]
-           || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
+        {% when 'gitalk' %}
+        <div id="gitalk-container"></div>
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <script>
+        var gitalk = new Gitalk({
+            id: '{{ page.url | truncate: 50, '' }}',
+            clientID: '{{site.gitalk.clientID}}',
+            clientSecret: '{{site.gitalk.clientSecret}}',
+            repo: '{{site.gitalk.repo}}',
+            owner: '{{site.gitalk.owner}}',
+            admin: ['{{site.gitalk.owner}}'],
+            labels: ['gitment'],
+            perPage: 50,
+        })
+        gitalk.render('gitalk-container')
         </script>
       <!-- 多说公共JS代码 END -->
       <!-- Duoshuo Comment END -->
-      {% endif %}
   {% endcase %}
 {% endif %}

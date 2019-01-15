@@ -2,25 +2,24 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://firsh.me
+url: https://firsh.me
 date_format: "ordinal"
-title: 张建新。
-subtitle: "我没有生来天赋过人,只剩对于技术的虔诚"
-description: "Flink，张建新技术博客，Kubernetes技术，虚拟化技术，微服务，容器技术,docker,Github, Google Kubernetes, kubernetes, Flink,Graphx,Spark,docker。"
+title: 张建新
+subtitle: "我没有生来天赋过人,只剩对技术的虔诚"
+description: "张建新个人博客"
 keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,hadoop,hbase,mongodb,hdfs,Geek,hack,Spring boot,spring boot,spring,Docker,Dockerfile,Java ,Python 冷漠
-favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-source_code: https://github.com/uk0/uk0.github.io/
-side_bar_repo_limit: 5
+side_bar_repo_limit: 6
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: unknow :)
-organization: huching group.
-organization_url: https://www.huaching.com
-location: China
+author: ZhangJianXin
+organization: null
+organization_url: http://www.null.com
+github_username: mzlogin
+location: BeiJing, China
 email: zhang-rd-fe@s139.org
 
 # ---------------- #
@@ -29,27 +28,27 @@ email: zhang-rd-fe@s139.org
 navs:
   -
     href: /
-    label: INDEX
+    label: 首页
 
   -
     href: /categories/
-    label: CATEGORIES
+    label: 分类
 
-  -
-    href: /open-source/
-    label: OPEN-SOURCE
+#   -
+#     href: /archives/
+#     label: 归档
 
   -
     href: /wiki/
-    label: WIKI
+    label: 维基
 
   -
     href: /links/
-    label: LINKS
+    label: 链接
 
   -
     href: /about/
-    label: ABOUT
+    label: 关于
 
 # ---------------- #
 #       RSS        #
@@ -69,6 +68,7 @@ quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
 gems:
+    - jekyll-github-metadata
     - rouge
 #     - jekyll-html-pipeline
     - jekyll-paginate
@@ -76,33 +76,32 @@ gems:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
-    - jekyll-github-metadata
 collections:
     wiki:
         output: true
         permalink: /wiki/:path/
 
-# ---------------- #
-#      Socials     #
-# ---------------- #
-github_username: uk0
-#douban_username: zmatsh
-facebook_username: zmatsh
-#weibo_username: zmatsh
-#zhihu_username: zmatsh
-twitter_username: firshMe
+repository: uk0/uk0.github.io
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, duoshuo
-comments_provider: disqus
-# !!!重要!!! 请修改下面两个用户名为你自己申请的
-# !!!Important!!! Please modify usernames below to yours
-#duoshuo_username: JianXinZhang
-disqus_username: zmatsh
-# 在使用 disqus 的时候可点击显示多说评论框
-#lazy_load_duoshuo: true
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+
+gitalk:
+    owner: uk0
+    repo: blog-comments
+    clientID: 0dc80b46a482ec78f3e0
+    clientSecret: 8cae5d306b3703ad240b74142995473086fcbbab
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
 
 # ---------------- #
 #    Analytics     #
