@@ -1,16 +1,16 @@
 ---
 layout: post
-categories: linux
+categories: Linux
 title: 一次磁盘挂载
 date: 2019-02-18 19:19:53 +0800
 description: 磁盘挂载Lvm
-keywords: lvm linux
+keywords: Linux
 ---
 
+服务器10台每台16块盘 其中两块系统盘,剩下的皆为数据盘，因为涉及到扩容，所以有一个大目录采用lvm挂载。
 
 
 ### 一次磁盘挂载（Centos7）
-
 
 ```bash
 #!/usr/bin/env bash
