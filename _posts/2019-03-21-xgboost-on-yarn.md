@@ -70,7 +70,7 @@ cd python-package/ && python setup.py install
 ## install jvm-package on env
 
 ```bash
-cd jvm-packages/ && mvn clean package && mvn install 
+cd jvm-packages/ && mvn install:install-file -Dfile=xgboost4j-spark-0.83-jar-with-dependencies.jar -DgroupId=ml.dmlc -DartifactId=xgboost4j-spark -Dversion=0.7 -Dpackaging=jar
 ```
 
 
