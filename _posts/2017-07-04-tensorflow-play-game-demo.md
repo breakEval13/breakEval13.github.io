@@ -15,13 +15,13 @@ keywords: TensorFlow, python,opencv
 
 
  游戏图:
- ![](https://112firshme11224.test.upcdn.net/tensorflow/tensorflow-game-bird.gif)
+ ![](http://112firshme11224.test.upcdn.net/tensorflow/tensorflow-game-bird.gif)
  
  整体思路：
- ![](https://112firshme11224.test.upcdn.net/tensorflow/network.png)
+ ![](http://112firshme11224.test.upcdn.net/tensorflow/network.png)
  
  处理图：
- ![](https://112firshme11224.test.upcdn.net/tensorflow/preprocess.png)
+ ![](http://112firshme11224.test.upcdn.net/tensorflow/preprocess.png)
  
  
 ## 后语

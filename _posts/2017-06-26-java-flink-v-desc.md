@@ -34,16 +34,16 @@ Flink主要包括基于Java和Scala的用于批量和基于流数据分析的API
 
 ## 6. DEMO
 
-![Flink](https://112firshme11224.test.upcdn.net/posts/flink/flink-demo.gif)
+![Flink](http://112firshme11224.test.upcdn.net/posts/flink/flink-demo.gif)
 
 
 
 > 架构图 
 
-![Flink](https://112firshme11224.test.upcdn.net/flink.png)
+![Flink](http://112firshme11224.test.upcdn.net/flink.png)
 
 
-![Flink](https://112firshme11224.test.upcdn.net/flink-home-graphic-update.svg)
+![Flink](http://112firshme11224.test.upcdn.net/flink-home-graphic-update.svg)
 
 > logo
-![Flink](https://112firshme11224.test.upcdn.net/flink-header-logo.svg)
+![Flink](http://112firshme11224.test.upcdn.net/flink-header-logo.svg)

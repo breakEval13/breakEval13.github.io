@@ -18,7 +18,7 @@ author：zhangjianxin
 [*] 成功图，
 
 
-   ![](https://112firshme11224.test.upcdn.net/images/crate-success.png)
+   ![](http://112firshme11224.test.upcdn.net/images/crate-success.png)
 
 
 [*] 解决方案

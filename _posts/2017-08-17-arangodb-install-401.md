@@ -17,7 +17,7 @@ author：zhangjianxin
 
 #  1.下载ArangoDB rpm
 ```bash
-wget https://112firshme11224.test.upcdn.net/blog/arangodb3-3.2.0-1.x86_64.rpm
+wget http://112firshme11224.test.upcdn.net/blog/arangodb3-3.2.0-1.x86_64.rpm
 ```
 #  2.Install ArangoDB
 ```bash
@@ -143,7 +143,7 @@ file = /var/log/arangodb3/arangod.log
 arangosh
 # 进入arangodb bash
 ```
-![](https://112firshme11224.test.upcdn.net/blog/20E4E40601E232AFEB557A2260F5BA20.png)
+![](http://112firshme11224.test.upcdn.net/blog/20E4E40601E232AFEB557A2260F5BA20.png)
 
 
 # 8.解决没有权限问题
@@ -154,11 +154,11 @@ arangosh
 
  ```
 
-![](https://112firshme11224.test.upcdn.net/blog/WX20170817-231202@2x.png)
+![](http://112firshme11224.test.upcdn.net/blog/WX20170817-231202@2x.png)
  * 注意启动以后开启另一个`shell`窗口,当前的不要结束，图上面是已经`Control + C `了，这一步在什么时候做下面会说。
  * 接下来执行`arangosh` 它会让你输入密码，直接会车即可。
 
-![](https://112firshme11224.test.upcdn.net/blog/WX20170817-231311@2x.png)
+![](http://112firshme11224.test.upcdn.net/blog/WX20170817-231311@2x.png)
 
  * 在出现的arangodb shell 里面执行如下命令。
 
@@ -170,7 +170,7 @@ require("@arangodb/users").replace("root", "new-password");
  * 退出后去第一个shell窗口执行 `Control + C `。
  * 然后在任意shell窗口进行访问`arangosh`,并且输入修改后的密码,即可成功登录arangodb。
 
-![](https://112firshme11224.test.upcdn.net/blog/WX20170817-231323@2x.png)
+![](http://112firshme11224.test.upcdn.net/blog/WX20170817-231323@2x.png)
 
 ## 不推荐使用` arango-secure-installation`进行修改root密码。
 

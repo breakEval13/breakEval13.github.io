@@ -20,7 +20,7 @@ keywords: GitHub Pages, SSL, Let's Encrypt
 
 几个理由加在一起，终于战胜了懒癌，让我动了起来。
 
-![enable https for GitHub Pages](https://112firshme11224.test.upcdn.net/posts/github/github-pages-with-https.png)
+![enable https for GitHub Pages](http://112firshme11224.test.upcdn.net/posts/github/github-pages-with-https.png)
 
 ## 步骤
 
@@ -34,15 +34,15 @@ keywords: GitHub Pages, SSL, Let's Encrypt
 
    * 用于注册 Kloudsec 的邮箱和为 Kloudsec 账户设置的密码。
 
-     ![Register a Kloudsec account](https://112firshme11224.test.upcdn.net/posts/github/https-kloudsec-account.png)
+     ![Register a Kloudsec account](http://112firshme11224.test.upcdn.net/posts/github/https-kloudsec-account.png)
 
    * GitHub Pages 项目的 URL 和绑定的域名。
 
-     ![Configure your Github Page](https://112firshme11224.test.upcdn.net/posts/github/https-config-gh.png)
+     ![Configure your Github Page](http://112firshme11224.test.upcdn.net/posts/github/https-config-gh.png)
 
    * 到你的域名解析控制面板里添加工具要求的 A 记录。
 
-     ![Configure your DNS settings](https://112firshme11224.test.upcdn.net/posts/github/https-config-dns.png)
+     ![Configure your DNS settings](http://112firshme11224.test.upcdn.net/posts/github/https-config-dns.png)
 
      **注意：** 每个 A 记录应只保留一个 IP，比如之前将 @ 做了 A 记录到 GitHub Pages 的 IP 上了，那现在将其删除，并添加工具提供的 IP。
 
@@ -50,21 +50,21 @@ keywords: GitHub Pages, SSL, Let's Encrypt
 
 4. 进入到 Dashboard 的 SETTINGS，在 Web Server Origin IP / Hostname 一栏填上 GitHub Pages 的可用 IP，比如我填写的是 `103.245.222.133`。
 
-   ![Web Server Origin IP](https://112firshme11224.test.upcdn.net/posts/github/https-config-server-ip.png)
+   ![Web Server Origin IP](http://112firshme11224.test.upcdn.net/posts/github/https-config-server-ip.png)
 
 5. 开启 HTTP 自动跳转到 HTTPS。*（非必须，按自己需求来。）*
 
    进入到 Dashboard 的 PROTECTION，点击 SSL Encryption 里的按钮，选择你的网站：
 
-   ![PROTECTION](https://112firshme11224.test.upcdn.net/posts/github/https-config-redirection-1.png)
+   ![PROTECTION](http://112firshme11224.test.upcdn.net/posts/github/https-config-redirection-1.png)
 
    将 Automatically redirect to HTTPS site? 下面的开关切换到 ON：
 
-   ![Automatically redirect to HTTPS site?](https://112firshme11224.test.upcdn.net/posts/github/https-config-redirection-2.png)
+   ![Automatically redirect to HTTPS site?](http://112firshme11224.test.upcdn.net/posts/github/https-config-redirection-2.png)
 
 6. 进入到 Dashboard 的 PLUGIN STORE，启用 Offline Protection、Page Optimizer 和 One-Click Encryption，一般来讲免费的计划就够用了，如果你想要使用付费计划提供更多更好的服务，那按需选择吧。
 
-   ![Plugin Store](https://112firshme11224.test.upcdn.net/posts/github/https-config-plugin-store.png)
+   ![Plugin Store](http://112firshme11224.test.upcdn.net/posts/github/https-config-plugin-store.png)
 
 恭喜你已完成所有步骤！等待几分钟生效即可。
 
