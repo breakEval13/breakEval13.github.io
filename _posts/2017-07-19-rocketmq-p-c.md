@@ -20,7 +20,7 @@ RocketMQ消息队列安装以及使用，RocketMQ安装常见问题，以及解�
 
 *jdk1.8*
 ```bash
- wget https://zmatsh.b0.upaiyun.com/blog/tmp/jdk-8u92-linux-x64.tar.gz
+ wget https://112firshme11224.test.upcdn.net/blog/tmp/jdk-8u92-linux-x64.tar.gz
  ```
 *maven下载：*
 
@@ -266,9 +266,9 @@ nohup sh  mqnamesrv >/var/log/ns.log 2>&1 &
 
 ## 运行成功的图！
 
-![](https://zmatsh.b0.upaiyun.com/blog/tmp/rocketmq-p.png)
+![](https://112firshme11224.test.upcdn.net/blog/tmp/rocketmq-p.png)
 
-![](https://zmatsh.b0.upaiyun.com/blog/tmp/rocketmq-c.png)
+![](https://112firshme11224.test.upcdn.net/blog/tmp/rocketmq-c.png)
 
 ## 禁止转载，盗版必究。
 

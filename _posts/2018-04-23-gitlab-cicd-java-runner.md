@@ -18,18 +18,18 @@ keywords:
 
 * 管理员用户登录 第一步
 
-![](http://zmatsh.b0.upaiyun.com/demos/e0a5ba5a-3b77-4871-a06d-b280040fcf8d.png)
+![](http://112firshme11224.test.upcdn.net/demos/e0a5ba5a-3b77-4871-a06d-b280040fcf8d.png)
 
 
 * 第二步进入Runner配置项
 
-![](http://zmatsh.b0.upaiyun.com/demos/f5f17d52-ff64-44a9-8f10-61a171ddbaf4.png)
+![](http://112firshme11224.test.upcdn.net/demos/f5f17d52-ff64-44a9-8f10-61a171ddbaf4.png)
 
 
 * 获得runner的注册信息
 
 
-![](http://zmatsh.b0.upaiyun.com/demos/7a0076af-57c3-4886-9bfb-e7edc4f03750.png)
+![](http://112firshme11224.test.upcdn.net/demos/7a0076af-57c3-4886-9bfb-e7edc4f03750.png)
 
 
 * 启动一个Runner 并且配置
@@ -77,7 +77,7 @@ Please enter the default Docker image (e.g. ruby:2.1):
 
 * 检查启动结果
 
-![](http://zmatsh.b0.upaiyun.com/demos/a8e8f6f4-2567-4434-af95-4de02ee55c8a.png)
+![](http://112firshme11224.test.upcdn.net/demos/a8e8f6f4-2567-4434-af95-4de02ee55c8a.png)
 
 
 * Gitlab Runner 就配置完成了。

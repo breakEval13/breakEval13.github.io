@@ -15,10 +15,10 @@ keywords: Idea, java，Mavne
 ```text
   先上图，毕竟是无图无真相的时代：
 ```
-![](https://zmatsh.b0.upaiyun.com/blog/tmp/maven-import-jar.png)
+![](https://112firshme11224.test.upcdn.net/blog/tmp/maven-import-jar.png)
 
 
-![](https://zmatsh.b0.upaiyun.com/blog/tmp/maven-import-jar-2.png)
+![](https://112firshme11224.test.upcdn.net/blog/tmp/maven-import-jar-2.png)
 
 * 上图已经标注出两个需要修改的位置。
 

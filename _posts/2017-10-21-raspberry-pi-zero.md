@@ -24,7 +24,7 @@ author：zhangjianxin
       * SSK 转接卡
       * 闪迪SD卡8GClass10
 
-   ![](https://zmatsh.b0.upaiyun.com/images/1508598613256.jpg)
+   ![](https://112firshme11224.test.upcdn.net/images/1508598613256.jpg)
 
 
 * 第一次没有插入SD卡的时候
@@ -44,7 +44,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
 * 插入sd卡的时候（多了一个/dev/disk2s1 ）
 
-![](https://zmatsh.b0.upaiyun.com/images/df-h-sd-card.png)
+![](https://112firshme11224.test.upcdn.net/images/df-h-sd-card.png)
 
 
 ```bash
@@ -61,7 +61,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
 * 通过diskutils工具进行umont这个SD卡(为了防止其他程序写入)
 
- ![](https://zmatsh.b0.upaiyun.com/images/umount-mac.png)
+ ![](https://112firshme11224.test.upcdn.net/images/umount-mac.png)
 
     ```bash
     ➜  ~ diskutil unmountDisk /dev/disk2s1
@@ -71,7 +71,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
 * 通过dd 写入镜像到sd卡。(10min)
 
- ![](https://zmatsh.b0.upaiyun.com/images/dd-sd-car-success.png)
+ ![](https://112firshme11224.test.upcdn.net/images/dd-sd-car-success.png)
 
     ```bash
     ➜  ~ sudo dd bs=512  if=2017-02-16-raspbian-jessie.img  of=/dev/disk2s1
@@ -95,7 +95,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
     dtoverlay=dwc2
     ```
 
-    ![](https://zmatsh.b0.upaiyun.com/images/vim-config.png)
+    ![](https://112firshme11224.test.upcdn.net/images/vim-config.png)
 
 
  * `cmdline.txt`文件中找到`rootwait`字段，并在其后面空格添加如下信息，在打开系统时开启usb网卡模式。
@@ -110,7 +110,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
       modules-load=dwc2,g_ether
     ```
 
-  ![](https://zmatsh.b0.upaiyun.com/images/vim-cmdline.png)
+  ![](https://112firshme11224.test.upcdn.net/images/vim-cmdline.png)
 
  * 通过usb连接设备树莓派zero有两个`MicroUSB`口，一个是`电源`插口，职司供电的功能，
    另外一个就是usb接口，它除了供电以外还提供`OTG`的功能，我们也是通过这个接口来连接pc
@@ -120,7 +120,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
  * 等待启动，树莓派zero的灯成黄色急闪状态(在load内核。)
  * 在你的网络内看到以下显示，就可以ssh链接树莓派zero了。
 
-    ![](https://zmatsh.b0.upaiyun.com/images/usb-otg.png)
+    ![](https://112firshme11224.test.upcdn.net/images/usb-otg.png)
 
  * 看到如上图：`ssh pi@raspberrypi.local` 输入密码链接即可。
 
@@ -154,7 +154,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
  * ping Test
 
-   ![](https://zmatsh.b0.upaiyun.com/images/ssh-new-ping.png)
+   ![](https://112firshme11224.test.upcdn.net/images/ssh-new-ping.png)
 
 
 # 2 、配置和下载安装程序
@@ -164,13 +164,13 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
     sudo apt-get update
    ```
 
-    ![](https://zmatsh.b0.upaiyun.com/images/zero-update.png)
+    ![](https://112firshme11224.test.upcdn.net/images/zero-update.png)
 
     ```bash
     sudo apt-get install git john
     ```
 
-    ![](https://zmatsh.b0.upaiyun.com/images/zero-install-git.png)
+    ![](https://112firshme11224.test.upcdn.net/images/zero-install-git.png)
 
  * 克隆代码
 
@@ -178,7 +178,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
      git clone --recursive  http://github.com/mame82/P4wnP1
    ```
 
-    ![](https://zmatsh.b0.upaiyun.com/images/git-clone-bad-usb.png)
+    ![](https://112firshme11224.test.upcdn.net/images/git-clone-bad-usb.png)
 
  * 安装
 
@@ -189,7 +189,7 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
 
  * 等待 下载大约300m数据，编译需要20分钟。
 
-   ![](https://zmatsh.b0.upaiyun.com/images/install-y-success.jpg)
+   ![](https://112firshme11224.test.upcdn.net/images/install-y-success.jpg)
 
  * 提示
 
@@ -211,20 +211,20 @@ localhost:/fMn-YFzQfnHjvi04JpRLvc  112Gi  112Gi    0Bi   100%       0          0
      pi@MAME82-P4WNP1:~ $ nano P4wnP1/setup.cfg
      ```
 
-     ![](https://zmatsh.b0.upaiyun.com/images/hack-setting.png)
+     ![](https://112firshme11224.test.upcdn.net/images/hack-setting.png)
 
      * 目前有的功能列表
 
-     ![](https://zmatsh.b0.upaiyun.com/images/windows-python-script-hack.png)
+     ![](https://112firshme11224.test.upcdn.net/images/windows-python-script-hack.png)
 
      * 测试shell,可以直接获取权限，图片：
 
-     ![](https://zmatsh.b0.upaiyun.com/images/success-bad-usb-hack.png)
+     ![](https://112firshme11224.test.upcdn.net/images/success-bad-usb-hack.png)
 
 
 # 3 成品图：
 
- ![](https://zmatsh.b0.upaiyun.com/images/success-png.jpg)
+ ![](https://112firshme11224.test.upcdn.net/images/success-png.jpg)
 
 * 以上操作经过验证可以直接拿去。
 * auther `breakEval13`

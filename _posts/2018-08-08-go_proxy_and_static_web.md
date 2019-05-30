@@ -60,7 +60,7 @@ keywords: go 反向代理 静态服务器
 ###  演示
   * GIF
 
-  ![](http://zmatsh.b0.upaiyun.com/demos/1f4abb63-ed08-4004-a612-427a32ee6fb5.gif)
+  ![](http://112firshme11224.test.upcdn.net/demos/1f4abb63-ed08-4004-a612-427a32ee6fb5.gif)
   
   * Github
 

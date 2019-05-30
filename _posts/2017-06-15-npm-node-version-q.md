@@ -30,7 +30,7 @@ $ n rm 4.0.0   -->（删除某个版本）
 ## 如图
 
 
-![此处输入图片的描述](https://zmatsh.b0.upaiyun.com/blog/QQ20170615-215055@2x.png)
+![此处输入图片的描述](https://112firshme11224.test.upcdn.net/blog/QQ20170615-215055@2x.png)
 
 
 
@@ -43,5 +43,5 @@ $ sudo n （用上下选择版本会车切换版本）
     node/6.5.0
 
 ```
-![此处输入图片的描述](https://zmatsh.b0.upaiyun.com/QQ20170615-214859@2x.png)
+![此处输入图片的描述](https://112firshme11224.test.upcdn.net/QQ20170615-214859@2x.png)
 
