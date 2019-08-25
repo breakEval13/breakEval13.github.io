@@ -1,11 +1,15 @@
 ---
 layout: post
-categories: rocketmq golang 
+categories: rocketmq golang
 title: 读取数据发送到MQ
 date: 2019-08-03 14:01:12 +0800
 description: 监控文件夹变动产生新文件读取该文件内容每一行都发送到RocketMQ
-keywords: RocketMQ Golang 
+keywords: RocketMQ Golang
 ---
+
+
+数据通过FTP上传到服务器要求将数据发送到RocketMQ原版本用Java写的（不是本人）TPS上不去资源消耗大等问题。
+
 
 
 ## 缘由

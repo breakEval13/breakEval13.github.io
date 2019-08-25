@@ -5,8 +5,8 @@ baseurl:
 url: https://firsh.me
 date_format: "ordinal"
 title: 张建新
-subtitle: "我没有生来天赋过人,只剩对技术的虔诚"
-description: "张建新个人博客"
+subtitle: "09年军刀 10 年小榕 15年计算机 19年继续攀升新的高度。"
+description: "张建新个人博客,我没有生来天赋过人,只有对技术的虔诚。"
 keywords: 张建新,docker,Github, 张建新博客 Google Kubernetes, kubernetes, Flink,Graphx Spark,hadoop,hbase,mongodb,hdfs,Geek,hack,Spring boot,spring boot,spring,Docker,Dockerfile,Java ,Python 冷漠
 timezone: Asia/Shanghai
 encoding: "utf-8"
