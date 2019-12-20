@@ -7,8 +7,10 @@ description: 渗透安全
 keywords: whois 渗透
 ---
 
-Linux利用Whois传输文件。
 
+
+
+![](http://112firshme11224.test.upcdn.net/blog/2019-12-20-17-51-54.png!100)
 
 
 ```bash
