@@ -12,7 +12,7 @@ keywords: 升级 openssh
 
 
 
- ### 准备和检查
+###  准备和检查
 
 * 检查系统版本
 * 检查openssh 版本
