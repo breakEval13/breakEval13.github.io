@@ -370,7 +370,7 @@ async fn main() -> std::io::Result<()> {
 
 * match 大体功能同等于`switch ` 但是加强了枚举
 * Some  `一个神奇的枚举种类` （比较有意思的点）
-* ||  `闭包`
+* `|| ` `闭包`
 * ? `Error propagation	一般会和 Match Some Restlt<Option> ` 打一套组合拳 主要还是用于传播 （比较有意思的点）
 * unwrap  和  `?` 相反的工作 `?`是传播  `unwrap` 摊开数据 解包数据返回。
 *  async await Rust的异步并发编程
