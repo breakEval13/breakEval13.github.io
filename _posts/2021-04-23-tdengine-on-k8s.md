@@ -1429,4 +1429,52 @@ spec:
 
 
 
+#### 运行图
+
+* StatefulSet
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-44-25.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+* service
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-45-23.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+* taos
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-47-07.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+
+* 开始重启测试
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-48-11.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+* 重启后状态信息
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-48-31.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+* 端口等待 
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-49-11.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+* 重启后恢复
+
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-49-32.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+* 恢复后 还在继续写入（其中一个库的一个表）
+
+![](http://112firshme11224.test.upcdn.net/blog/2021-04-24-00-52-32.png!100/watermark/text/VXB5dW4g5Zu+5bqK/font/simyou/align/southeast/size/18/color/FFFFFF/margin/5x5)
+
+
+
+
+###  以上操作均在正式环境在运行，出现问题我会及时更新，感谢您的阅读。
+
+
 转载请注明出处，本文采用 [CC4.0](http://creativecommons.org/licenses/by-nc-nd/4.0/) 协议授权
